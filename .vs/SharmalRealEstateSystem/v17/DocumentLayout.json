@@ -1,0 +1,168 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\MyProjects\\Sharmal_BackendApi\\search.com.mm\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6949EDAF-2EF3-4DF6-8279-76DE61DA4BF1}|SharmalRealEstateSystem.Api\\SharmalRealEstateSystem.Api.csproj|c:\\myprojects\\sharmal_backendapi\\search.com.mm\\sharmalrealestatesystem.api\\modularservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6949EDAF-2EF3-4DF6-8279-76DE61DA4BF1}|SharmalRealEstateSystem.Api\\SharmalRealEstateSystem.Api.csproj|solutionrelative:sharmalrealestatesystem.api\\modularservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6949EDAF-2EF3-4DF6-8279-76DE61DA4BF1}|SharmalRealEstateSystem.Api\\SharmalRealEstateSystem.Api.csproj|c:\\myprojects\\sharmal_backendapi\\search.com.mm\\sharmalrealestatesystem.api\\features\\admin\\auth\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6949EDAF-2EF3-4DF6-8279-76DE61DA4BF1}|SharmalRealEstateSystem.Api\\SharmalRealEstateSystem.Api.csproj|solutionrelative:sharmalrealestatesystem.api\\features\\admin\\auth\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BB6A710-A5A1-4C43-A711-728B245B165E}|SharmalRealEstateSystem.Repositories\\SharmalRealEstateSystem.Repositories.csproj|c:\\myprojects\\sharmal_backendapi\\search.com.mm\\sharmalrealestatesystem.repositories\\features\\admin\\auth\\authrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BB6A710-A5A1-4C43-A711-728B245B165E}|SharmalRealEstateSystem.Repositories\\SharmalRealEstateSystem.Repositories.csproj|solutionrelative:sharmalrealestatesystem.repositories\\features\\admin\\auth\\authrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6949EDAF-2EF3-4DF6-8279-76DE61DA4BF1}|SharmalRealEstateSystem.Api\\SharmalRealEstateSystem.Api.csproj|c:\\myprojects\\sharmal_backendapi\\search.com.mm\\sharmalrealestatesystem.api\\features\\members\\auth\\bl_memberauth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6949EDAF-2EF3-4DF6-8279-76DE61DA4BF1}|SharmalRealEstateSystem.Api\\SharmalRealEstateSystem.Api.csproj|solutionrelative:sharmalrealestatesystem.api\\features\\members\\auth\\bl_memberauth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{700C5FC4-A652-4B15-94A0-F544DE7CFB31}|SharmalRealEstateSystem.DbService\\SharmalRealEstateSystem.DbService.csproj|c:\\myprojects\\sharmal_backendapi\\search.com.mm\\sharmalrealestatesystem.dbservice\\appdbcontexts\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{700C5FC4-A652-4B15-94A0-F544DE7CFB31}|SharmalRealEstateSystem.DbService\\SharmalRealEstateSystem.DbService.csproj|solutionrelative:sharmalrealestatesystem.dbservice\\appdbcontexts\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{700C5FC4-A652-4B15-94A0-F544DE7CFB31}|SharmalRealEstateSystem.DbService\\SharmalRealEstateSystem.DbService.csproj|c:\\myprojects\\sharmal_backendapi\\search.com.mm\\sharmalrealestatesystem.dbservice\\appdbcontexts\\tblmember.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{700C5FC4-A652-4B15-94A0-F544DE7CFB31}|SharmalRealEstateSystem.DbService\\SharmalRealEstateSystem.DbService.csproj|solutionrelative:sharmalrealestatesystem.dbservice\\appdbcontexts\\tblmember.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BB6A710-A5A1-4C43-A711-728B245B165E}|SharmalRealEstateSystem.Repositories\\SharmalRealEstateSystem.Repositories.csproj|c:\\myprojects\\sharmal_backendapi\\search.com.mm\\sharmalrealestatesystem.repositories\\features\\member\\auth\\memberauthrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BB6A710-A5A1-4C43-A711-728B245B165E}|SharmalRealEstateSystem.Repositories\\SharmalRealEstateSystem.Repositories.csproj|solutionrelative:sharmalrealestatesystem.repositories\\features\\member\\auth\\memberauthrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BB6A710-A5A1-4C43-A711-728B245B165E}|SharmalRealEstateSystem.Repositories\\SharmalRealEstateSystem.Repositories.csproj|c:\\myprojects\\sharmal_backendapi\\search.com.mm\\sharmalrealestatesystem.repositories\\features\\admin\\car\\carrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BB6A710-A5A1-4C43-A711-728B245B165E}|SharmalRealEstateSystem.Repositories\\SharmalRealEstateSystem.Repositories.csproj|solutionrelative:sharmalrealestatesystem.repositories\\features\\admin\\car\\carrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{700C5FC4-A652-4B15-94A0-F544DE7CFB31}|SharmalRealEstateSystem.DbService\\SharmalRealEstateSystem.DbService.csproj|c:\\myprojects\\sharmal_backendapi\\search.com.mm\\sharmalrealestatesystem.dbservice\\appdbcontexts\\tbluser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{700C5FC4-A652-4B15-94A0-F544DE7CFB31}|SharmalRealEstateSystem.DbService\\SharmalRealEstateSystem.DbService.csproj|solutionrelative:sharmalrealestatesystem.dbservice\\appdbcontexts\\tbluser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 329,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ModularService.cs",
+              "DocumentMoniker": "C:\\MyProjects\\Sharmal_BackendApi\\search.com.mm\\SharmalRealEstateSystem.Api\\ModularService.cs",
+              "RelativeDocumentMoniker": "SharmalRealEstateSystem.Api\\ModularService.cs",
+              "ToolTip": "C:\\MyProjects\\Sharmal_BackendApi\\search.com.mm\\SharmalRealEstateSystem.Api\\ModularService.cs",
+              "RelativeToolTip": "SharmalRealEstateSystem.Api\\ModularService.cs",
+              "ViewState": "AgIAAAABAAAAAAAAAAAYwAoBAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T08:25:49.88Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\MyProjects\\Sharmal_BackendApi\\search.com.mm\\SharmalRealEstateSystem.Api\\Features\\Admin\\Auth\\AuthController.cs",
+              "RelativeDocumentMoniker": "SharmalRealEstateSystem.Api\\Features\\Admin\\Auth\\AuthController.cs",
+              "ToolTip": "C:\\MyProjects\\Sharmal_BackendApi\\search.com.mm\\SharmalRealEstateSystem.Api\\Features\\Admin\\Auth\\AuthController.cs",
+              "RelativeToolTip": "SharmalRealEstateSystem.Api\\Features\\Admin\\Auth\\AuthController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T08:17:13.958Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BL_MemberAuth.cs",
+              "DocumentMoniker": "C:\\MyProjects\\Sharmal_BackendApi\\search.com.mm\\SharmalRealEstateSystem.Api\\Features\\Members\\Auth\\BL_MemberAuth.cs",
+              "RelativeDocumentMoniker": "SharmalRealEstateSystem.Api\\Features\\Members\\Auth\\BL_MemberAuth.cs",
+              "ToolTip": "C:\\MyProjects\\Sharmal_BackendApi\\search.com.mm\\SharmalRealEstateSystem.Api\\Features\\Members\\Auth\\BL_MemberAuth.cs",
+              "RelativeToolTip": "SharmalRealEstateSystem.Api\\Features\\Members\\Auth\\BL_MemberAuth.cs",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAmwGEAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T08:11:20.058Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CarRepository.cs",
+              "DocumentMoniker": "C:\\MyProjects\\Sharmal_BackendApi\\search.com.mm\\SharmalRealEstateSystem.Repositories\\Features\\Admin\\Car\\CarRepository.cs",
+              "RelativeDocumentMoniker": "SharmalRealEstateSystem.Repositories\\Features\\Admin\\Car\\CarRepository.cs",
+              "ToolTip": "C:\\MyProjects\\Sharmal_BackendApi\\search.com.mm\\SharmalRealEstateSystem.Repositories\\Features\\Admin\\Car\\CarRepository.cs",
+              "RelativeToolTip": "SharmalRealEstateSystem.Repositories\\Features\\Admin\\Car\\CarRepository.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAYwHQAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T08:09:26.384Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TblMember.cs",
+              "DocumentMoniker": "C:\\MyProjects\\Sharmal_BackendApi\\search.com.mm\\SharmalRealEstateSystem.DbService\\AppDbContexts\\TblMember.cs",
+              "RelativeDocumentMoniker": "SharmalRealEstateSystem.DbService\\AppDbContexts\\TblMember.cs",
+              "ToolTip": "C:\\MyProjects\\Sharmal_BackendApi\\search.com.mm\\SharmalRealEstateSystem.DbService\\AppDbContexts\\TblMember.cs",
+              "RelativeToolTip": "SharmalRealEstateSystem.DbService\\AppDbContexts\\TblMember.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBgAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T06:59:46.901Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "TblUser.cs",
+              "DocumentMoniker": "C:\\MyProjects\\Sharmal_BackendApi\\search.com.mm\\SharmalRealEstateSystem.DbService\\AppDbContexts\\TblUser.cs",
+              "RelativeDocumentMoniker": "SharmalRealEstateSystem.DbService\\AppDbContexts\\TblUser.cs",
+              "ToolTip": "C:\\MyProjects\\Sharmal_BackendApi\\search.com.mm\\SharmalRealEstateSystem.DbService\\AppDbContexts\\TblUser.cs",
+              "RelativeToolTip": "SharmalRealEstateSystem.DbService\\AppDbContexts\\TblUser.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAzwBUAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T06:58:01.11Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\MyProjects\\Sharmal_BackendApi\\search.com.mm\\SharmalRealEstateSystem.DbService\\AppDbContexts\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "SharmalRealEstateSystem.DbService\\AppDbContexts\\AppDbContext.cs",
+              "ToolTip": "C:\\MyProjects\\Sharmal_BackendApi\\search.com.mm\\SharmalRealEstateSystem.DbService\\AppDbContexts\\AppDbContext.cs",
+              "RelativeToolTip": "SharmalRealEstateSystem.DbService\\AppDbContexts\\AppDbContext.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAmwCMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T06:57:09.755Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AuthRepository.cs",
+              "DocumentMoniker": "C:\\MyProjects\\Sharmal_BackendApi\\search.com.mm\\SharmalRealEstateSystem.Repositories\\Features\\Admin\\Auth\\AuthRepository.cs",
+              "RelativeDocumentMoniker": "SharmalRealEstateSystem.Repositories\\Features\\Admin\\Auth\\AuthRepository.cs",
+              "ToolTip": "C:\\MyProjects\\Sharmal_BackendApi\\search.com.mm\\SharmalRealEstateSystem.Repositories\\Features\\Admin\\Auth\\AuthRepository.cs",
+              "RelativeToolTip": "SharmalRealEstateSystem.Repositories\\Features\\Admin\\Auth\\AuthRepository.cs",
+              "ViewState": "AgIAAL8CAAAAAAAAAAAqwMUCAABgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T06:52:23.067Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MemberAuthRepository.cs",
+              "DocumentMoniker": "C:\\MyProjects\\Sharmal_BackendApi\\search.com.mm\\SharmalRealEstateSystem.Repositories\\Features\\Member\\Auth\\MemberAuthRepository.cs",
+              "RelativeDocumentMoniker": "SharmalRealEstateSystem.Repositories\\Features\\Member\\Auth\\MemberAuthRepository.cs",
+              "ToolTip": "C:\\MyProjects\\Sharmal_BackendApi\\search.com.mm\\SharmalRealEstateSystem.Repositories\\Features\\Member\\Auth\\MemberAuthRepository.cs",
+              "RelativeToolTip": "SharmalRealEstateSystem.Repositories\\Features\\Member\\Auth\\MemberAuthRepository.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAYwDkAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T06:52:03.355Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

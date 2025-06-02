@@ -1,0 +1,13 @@
+C:\MyProjects\Sharmal_BackendApi\search.com.mm\SharmalRealEstateSystem.Models\bin\Debug\net7.0\SharmalRealEstateSystem.Models.deps.json
+C:\MyProjects\Sharmal_BackendApi\search.com.mm\SharmalRealEstateSystem.Models\bin\Debug\net7.0\SharmalRealEstateSystem.Models.dll
+C:\MyProjects\Sharmal_BackendApi\search.com.mm\SharmalRealEstateSystem.Models\bin\Debug\net7.0\SharmalRealEstateSystem.Models.pdb
+C:\MyProjects\Sharmal_BackendApi\search.com.mm\SharmalRealEstateSystem.Models\obj\Debug\net7.0\SharmalRealEstateSystem.Models.csproj.AssemblyReference.cache
+C:\MyProjects\Sharmal_BackendApi\search.com.mm\SharmalRealEstateSystem.Models\obj\Debug\net7.0\SharmalRealEstateSystem.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\MyProjects\Sharmal_BackendApi\search.com.mm\SharmalRealEstateSystem.Models\obj\Debug\net7.0\SharmalRealEstateSystem.Models.AssemblyInfoInputs.cache
+C:\MyProjects\Sharmal_BackendApi\search.com.mm\SharmalRealEstateSystem.Models\obj\Debug\net7.0\SharmalRealEstateSystem.Models.AssemblyInfo.cs
+C:\MyProjects\Sharmal_BackendApi\search.com.mm\SharmalRealEstateSystem.Models\obj\Debug\net7.0\SharmalRealEstateSystem.Models.csproj.CoreCompileInputs.cache
+C:\MyProjects\Sharmal_BackendApi\search.com.mm\SharmalRealEstateSystem.Models\obj\Debug\net7.0\SharmalRealEstateSystem.Models.sourcelink.json
+C:\MyProjects\Sharmal_BackendApi\search.com.mm\SharmalRealEstateSystem.Models\obj\Debug\net7.0\SharmalRealEstateSystem.Models.dll
+C:\MyProjects\Sharmal_BackendApi\search.com.mm\SharmalRealEstateSystem.Models\obj\Debug\net7.0\refint\SharmalRealEstateSystem.Models.dll
+C:\MyProjects\Sharmal_BackendApi\search.com.mm\SharmalRealEstateSystem.Models\obj\Debug\net7.0\SharmalRealEstateSystem.Models.pdb
+C:\MyProjects\Sharmal_BackendApi\search.com.mm\SharmalRealEstateSystem.Models\obj\Debug\net7.0\ref\SharmalRealEstateSystem.Models.dll

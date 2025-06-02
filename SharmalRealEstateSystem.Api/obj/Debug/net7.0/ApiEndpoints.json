@@ -1,0 +1,1567 @@
+[
+  {
+    "ContainingType": "SharmalRealEstateSystem.Api.Features.AesController",
+    "Method": "Decrypt",
+    "RelativePath": "api/Aes/Decrypt",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "encryptedText",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SharmalRealEstateSystem.Api.Features.AesController",
+    "Method": "Encrypt",
+    "RelativePath": "api/Aes/Encrypt",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "plainText",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SharmalRealEstateSystem.Api.Features.Admin.Auth.AuthController",
+    "Method": "GetUserList",
+    "RelativePath": "api/v1/admin-account",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pageNo",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "pageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SharmalRealEstateSystem.Api.Features.Admin.Auth.AuthController",
+    "Method": "ResetFailCount",
+    "RelativePath": "api/v1/admin-account",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SharmalRealEstateSystem.Api.Features.Admin.Auth.AuthController",
+    "Method": "DeleteUser",
+    "RelativePath": "api/v1/admin-account",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SharmalRealEstateSystem.Api.Features.Admin.Auth.AuthController",
+    "Method": "Register",
+    "RelativePath": "api/v1/admin-account/register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "requestModel",
+        "Type": "SharmalRealEstateSystem.Models.Features.Admin.Auth.RegisterRequestModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SharmalRealEstateSystem.Api.Features.Admin.Auth.AuthController",
+    "Method": "UpdateProfile",
+    "RelativePath": "api/v1/admin-account/update-profile",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "requestModel",
+        "Type": "SharmalRealEstateSystem.Models.Features.Admin.Auth.UpdateProfileRequestModel",
+        "IsRequired": true
+      },
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SharmalRealEstateSystem.Api.Features.Admin.AdsPage.AdsPageController",
+    "Method": "CreateAdsPage",
+    "RelativePath": "api/v1/admin-ads-page",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "requestModel",
+        "Type": "SharmalRealEstateSystem.Models.Features.Admin.AdsPage.AdsPageRequestModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SharmalRealEstateSystem.Api.Features.Admin.AdsPage.AdsPageController",
+    "Method": "UpdateAdsPage",
+    "RelativePath": "api/v1/admin-ads-page",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "requestModel",
+        "Type": "SharmalRealEstateSystem.Models.Features.Admin.AdsPage.AdsPageRequestModel",
+        "IsRequired": true
+      },
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SharmalRealEstateSystem.Api.Features.Admin.AdsPage.AdsPageController",
+    "Method": "ReactivateAdsPage",
+    "RelativePath": "api/v1/admin-ads-page",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SharmalRealEstateSystem.Api.Features.Admin.AdsPage.AdsPageController",
+    "Method": "DeleteAdsPage",
+    "RelativePath": "api/v1/admin-ads-page",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SharmalRealEstateSystem.Api.Features.Admin.Feature.FeatureController",
+    "Method": "CreateFeature",
+    "RelativePath": "api/v1/admin-feature",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "requestModel",
+        "Type": "SharmalRealEstateSystem.Models.Features.Admin.Feature.FeatureRequestModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SharmalRealEstateSystem.Api.Features.Admin.Feature.FeatureController",
+    "Method": "UpdateFeature",
+    "RelativePath": "api/v1/admin-feature",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "requestModel",
+        "Type": "SharmalRealEstateSystem.Models.Features.Admin.Feature.FeatureRequestModel",
+        "IsRequired": true
+      },
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SharmalRealEstateSystem.Api.Features.Admin.Feature.FeatureController",
+    "Method": "ReactivateFeature",
+    "RelativePath": "api/v1/admin-feature",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SharmalRealEstateSystem.Api.Features.Admin.Feature.FeatureController",
+    "Method": "DeleteFeature",
+    "RelativePath": "api/v1/admin-feature",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SharmalRealEstateSystem.Api.Features.Admin.Auth.AuthController",
+    "Method": "Login",
+    "RelativePath": "api/v1/feature-account/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "requestModel",
+        "Type": "SharmalRealEstateSystem.Models.Features.Admin.Auth.LoginRequestModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SharmalRealEstateSystem.Api.Features.Admin.Auth.AuthController",
+    "Method": "UpdatePassword",
+    "RelativePath": "api/v1/feature-account/update-password",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "requestModel",
+        "Type": "SharmalRealEstateSystem.Models.Features.Admin.Auth.UpdatePasswordRequestModel",
+        "IsRequired": true
+      },
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SharmalRealEstateSystem.Api.Features.Admin.Ads.AdsController",
+    "Method": "GetAdsListByUserId",
+    "RelativePath": "api/v1/feature-ads",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "pageNo",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "pageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SharmalRealEstateSystem.Api.Features.Admin.Ads.AdsController",
+    "Method": "CreateAds",
+    "RelativePath": "api/v1/feature-ads",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Title",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "AdsCode",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "TargetUrl",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "AdsLayout",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "StartDate",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "EndDate",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "CreatedBy",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "AdsPagePlacements",
+        "Type": "System.Collections.Generic.List\u00601[[SharmalRealEstateSystem.Models.Features.Admin.Ads.AdsPagePlacementRequestModel, SharmalRealEstateSystem.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "Files",
+        "Type": "System.Collections.Generic.List\u00601[[Microsoft.AspNetCore.Http.IFormFile, Microsoft.AspNetCore.Http.Features, Version=7.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SharmalRealEstateSystem.Api.Features.Admin.Ads.AdsController",
+    "Method": "UpdateAds",
+    "RelativePath": "api/v1/feature-ads",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Title",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "AdsCode",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "TargetUrl",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "AdsLayout",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "StartDate",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "EndDate",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "UpdatedBy",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "AdsPagePlacements",
+        "Type": "System.Collections.Generic.List\u00601[[SharmalRealEstateSystem.Models.Features.Admin.Ads.AdsPagePlacementRequestModel, SharmalRealEstateSystem.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "Files",
+        "Type": "System.Collections.Generic.List\u00601[[Microsoft.AspNetCore.Http.IFormFile, Microsoft.AspNetCore.Http.Features, Version=7.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "RemoveFiles",
+        "Type": "System.Collections.Generic.List\u00601[[SharmalRealEstateSystem.Models.Features.Admin.Ads.UpdateAdsRemoveFileRequestModel, SharmalRealEstateSystem.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SharmalRealEstateSystem.Api.Features.Admin.Ads.AdsController",
+    "Method": "DeleteAds",
+    "RelativePath": "api/v1/feature-ads",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SharmalRealEstateSystem.Api.Features.Admin.AdsPage.AdsPageController",
+    "Method": "GetAdsPageList",
+    "RelativePath": "api/v1/feature-ads-page",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "isDeleted",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SharmalRealEstateSystem.Api.Features.Admin.Ads.AdsController",
+    "Method": "GetAdsList",
+    "RelativePath": "api/v1/feature-ads/filter",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "filterAdsRequestModel",
+        "Type": "SharmalRealEstateSystem.Models.Features.Admin.Ads.FilterAdsRequestModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SharmalRealEstateSystem.Api.Features.Admin.Car.CarController",
+    "Method": "GetCarListByUserId",
+    "RelativePath": "api/v1/feature-car",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "pageNo",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "pageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SharmalRealEstateSystem.Api.Features.Admin.Car.CarController",
+    "Method": "CreateCar",
+    "RelativePath": "api/v1/feature-car",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Title",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Code",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Status",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Description",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Gearbox",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "SteeringPosition",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "EnginePower",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "FuelType",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Mileage",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Manufacturer",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "BuildType",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Model",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Year",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "PlateDivision",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "PlateNo",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "PlateColor",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "LincenseStatus",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "CarColor",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Condition",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Price",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "SpecialStatus",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "NumberOfViewers",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Availability",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "IsSold",
+        "Type": "System.Nullable\u00601[[System.Boolean, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "Location",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "City",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "PaymentOption",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "TrimName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "SellerName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "PrimaryPhoneNumber",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "SecondaryPhoneNumber",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Email",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Address",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "CreatedBy",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "IsPopular",
+        "Type": "System.Nullable\u00601[[System.Boolean, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "IsHotDeal",
+        "Type": "System.Nullable\u00601[[System.Boolean, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "Files",
+        "Type": "System.Collections.Generic.List\u00601[[Microsoft.AspNetCore.Http.IFormFile, Microsoft.AspNetCore.Http.Features, Version=7.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SharmalRealEstateSystem.Api.Features.Admin.Car.CarController",
+    "Method": "UpdateCar",
+    "RelativePath": "api/v1/feature-car",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Title",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Code",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Status",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Description",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Gearbox",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "SteeringPosition",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "EnginePower",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "FuelType",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Mileage",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Manufacturer",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "BuildType",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Model",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Year",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "PlateDivision",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "PlateNo",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "PlateColor",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "LincenseStatus",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "CarColor",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Condition",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Price",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "SpecialStatus",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "NumberOfViewers",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Availability",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "IsSold",
+        "Type": "System.Nullable\u00601[[System.Boolean, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "Location",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "City",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "PaymentOption",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "TrimName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "SellerName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "PrimaryPhoneNumber",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "SecondaryPhoneNumber",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Email",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Address",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "CreatedBy",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "UpdatedBy",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "IsDeleted",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      },
+      {
+        "Name": "IsPopular",
+        "Type": "System.Nullable\u00601[[System.Boolean, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "IsHotDeal",
+        "Type": "System.Nullable\u00601[[System.Boolean, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "Files",
+        "Type": "System.Collections.Generic.List\u00601[[Microsoft.AspNetCore.Http.IFormFile, Microsoft.AspNetCore.Http.Features, Version=7.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "RemoveImages",
+        "Type": "System.Collections.Generic.List\u00601[[SharmalRealEstateSystem.Models.Features.Admin.Car.RemoveCarImageRequestModel, SharmalRealEstateSystem.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SharmalRealEstateSystem.Api.Features.Admin.Car.CarController",
+    "Method": "DeleteCar",
+    "RelativePath": "api/v1/feature-car",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SharmalRealEstateSystem.Api.Features.Admin.Car.CarController",
+    "Method": "GetCarByCarId",
+    "RelativePath": "api/v1/feature-car/car-id",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "carId",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SharmalRealEstateSystem.Api.Features.Admin.Car.CarController",
+    "Method": "GetCarList",
+    "RelativePath": "api/v1/feature-car/filter",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "requestModel",
+        "Type": "SharmalRealEstateSystem.Models.Features.Admin.Car.GetCarListRequestModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SharmalRealEstateSystem.Api.Features.Admin.Dashboard.DashController",
+    "Method": "GetDashboardData",
+    "RelativePath": "api/v1/feature-dashboard",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SharmalRealEstateSystem.Api.Features.Admin.ExchangeRate.ExchangeRateController",
+    "Method": "GetList",
+    "RelativePath": "api/v1/feature-exchange-rate",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SharmalRealEstateSystem.Api.Features.Admin.ExchangeRate.ExchangeRateController",
+    "Method": "UpdateExchangeRate",
+    "RelativePath": "api/v1/feature-exchange-rate",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "requestModel",
+        "Type": "SharmalRealEstateSystem.Models.Features.Admin.ExchangeRate.UpdateExchangeRateRequestModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SharmalRealEstateSystem.Api.Features.Admin.ExchangeRate.ExchangeRateController",
+    "Method": "DeleteExchangeRate",
+    "RelativePath": "api/v1/feature-exchange-rate",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SharmalRealEstateSystem.Api.Features.Admin.Feature.FeatureController",
+    "Method": "GetFeatures",
+    "RelativePath": "api/v1/feature-feature",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "isDeleted",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SharmalRealEstateSystem.Api.Features.Admin.Inquiry.InquiryController",
+    "Method": "CreateInquiry",
+    "RelativePath": "api/v1/feature-inquiry",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "requestModel",
+        "Type": "SharmalRealEstateSystem.Models.Features.Admin.Inquiry.InquiryRequestModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SharmalRealEstateSystem.Api.Features.Admin.Inquiry.InquiryController",
+    "Method": "PatchInquiry",
+    "RelativePath": "api/v1/feature-inquiry",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SharmalRealEstateSystem.Api.Features.Admin.Inquiry.InquiryController",
+    "Method": "DeleteInquiry",
+    "RelativePath": "api/v1/feature-inquiry",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SharmalRealEstateSystem.Api.Features.Admin.Inquiry.InquiryController",
+    "Method": "GetInquiryList",
+    "RelativePath": "api/v1/feature-inquiry/filter",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "requestModel",
+        "Type": "SharmalRealEstateSystem.Models.Features.Admin.Inquiry.GetFilterInquiryRequestModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SharmalRealEstateSystem.Api.Features.Admin.Property.PropertyController",
+    "Method": "GetListByUserId",
+    "RelativePath": "api/v1/feature-property",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "pageNo",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "pageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SharmalRealEstateSystem.Api.Features.Admin.Property.PropertyController",
+    "Method": "CreateProperty",
+    "RelativePath": "api/v1/feature-property",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Title",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Code",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Status",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Type",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Price",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "PaymentOption",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Location",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "City",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "NumberOfViewers",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Bedrooms",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "Bathrooms",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "Area",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Condition",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Floor",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Description",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Furnished",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "MapUrl",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "SellerName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "PrimaryPhoneNumber",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "SecondaryPhoneNumber",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Email",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Address",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "CreatedBy",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "CreatedDate",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Approved",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "IsPopular",
+        "Type": "System.Nullable\u00601[[System.Boolean, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "IsHotDeal",
+        "Type": "System.Nullable\u00601[[System.Boolean, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "Features",
+        "Type": "System.Collections.Generic.List\u00601[[SharmalRealEstateSystem.Models.Features.Admin.PropertyFeature.PropertyFeatureRequestModel, SharmalRealEstateSystem.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "Files",
+        "Type": "System.Collections.Generic.List\u00601[[Microsoft.AspNetCore.Http.IFormFile, Microsoft.AspNetCore.Http.Features, Version=7.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SharmalRealEstateSystem.Api.Features.Admin.Property.PropertyController",
+    "Method": "UpdateProperty",
+    "RelativePath": "api/v1/feature-property",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Title",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Code",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Status",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Type",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Price",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "PaymentOption",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Location",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "City",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "NumberOfViewers",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Bedrooms",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Area",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Condition",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Floor",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Description",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Furnished",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "MapUrl",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "SellerName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "PrimaryPhoneNumber",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "SecondaryPhoneNumber",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Email",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Address",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "UpdatedBy",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "CreatedBy",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "IsPopular",
+        "Type": "System.Nullable\u00601[[System.Boolean, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "IsHotDeal",
+        "Type": "System.Nullable\u00601[[System.Boolean, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "Features",
+        "Type": "System.Collections.Generic.List\u00601[[SharmalRealEstateSystem.Models.Features.Admin.PropertyFeature.PropertyFeatureRequestModel, SharmalRealEstateSystem.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "RemoveImages",
+        "Type": "System.Collections.Generic.List\u00601[[SharmalRealEstateSystem.Models.Features.Admin.Property.RemoveImageRequestModel, SharmalRealEstateSystem.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "Files",
+        "Type": "System.Collections.Generic.List\u00601[[Microsoft.AspNetCore.Http.IFormFile, Microsoft.AspNetCore.Http.Features, Version=7.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SharmalRealEstateSystem.Api.Features.Admin.Property.PropertyController",
+    "Method": "DeleteProperty",
+    "RelativePath": "api/v1/feature-property",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SharmalRealEstateSystem.Api.Features.Admin.Property.PropertyController",
+    "Method": "GetList",
+    "RelativePath": "api/v1/feature-property/filter",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "requestModel",
+        "Type": "SharmalRealEstateSystem.Models.Features.Admin.Property.GetPropertyListRequestModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SharmalRealEstateSystem.Api.Features.Admin.Property.PropertyController",
+    "Method": "GetPropertyByPropertyId",
+    "RelativePath": "api/v1/feature-property/property-id",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "propertyId",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SharmalRealEstateSystem.Api.Features.Middlewares.TokenValidationController",
+    "Method": "ValidateToken",
+    "RelativePath": "api/v1/jwt",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "requestModel",
+        "Type": "SharmalRealEstateSystem.Models.Features.Jwt.JwtRequestModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SharmalRealEstateSystem.Api.Features.Members.MemberPost.MemberPostController",
+    "Method": "ApprovedRejected",
+    "RelativePath": "api/v2/member-post/approved-rejected",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "category",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "decision",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SharmalRealEstateSystem.Api.Features.Members.MemberPost.MemberPostController",
+    "Method": "GetList",
+    "RelativePath": "api/v2/member-post/getlist",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "requestModel",
+        "Type": "SharmalRealEstateSystem.Models.Features.Admin.Member.MemberPostListRequestModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SharmalRealEstateSystem.Api.Features.Admin.Auth.AuthController",
+    "Method": "ValidateToken",
+    "RelativePath": "api/v2/validate-token",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]

@@ -1,0 +1,37 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\MyProjects\\Sharmal_BackendApi\\search.com.mm\\SharmalRealEstateSystem.Api\\wwwroot\\img\\exchange_rate\\JPY.png",
+      "PackagePath": "staticwebassets\\img\\exchange_rate\\JPY.png"
+    },
+    {
+      "Id": "C:\\MyProjects\\Sharmal_BackendApi\\search.com.mm\\SharmalRealEstateSystem.Api\\wwwroot\\img\\exchange_rate\\THB.png",
+      "PackagePath": "staticwebassets\\img\\exchange_rate\\THB.png"
+    },
+    {
+      "Id": "C:\\MyProjects\\Sharmal_BackendApi\\search.com.mm\\SharmalRealEstateSystem.Api\\wwwroot\\img\\exchange_rate\\USD.png",
+      "PackagePath": "staticwebassets\\img\\exchange_rate\\USD.png"
+    },
+    {
+      "Id": "obj\\Release\\net7.0\\staticwebassets\\msbuild.SharmalRealEstateSystem.Api.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Release\\net7.0\\staticwebassets\\msbuild.SharmalRealEstateSystem.Api.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Release\\net7.0\\staticwebassets\\msbuild.build.SharmalRealEstateSystem.Api.props",
+      "PackagePath": "build\\SharmalRealEstateSystem.Api.props"
+    },
+    {
+      "Id": "obj\\Release\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.SharmalRealEstateSystem.Api.props",
+      "PackagePath": "buildMultiTargeting\\SharmalRealEstateSystem.Api.props"
+    },
+    {
+      "Id": "obj\\Release\\net7.0\\staticwebassets\\msbuild.buildTransitive.SharmalRealEstateSystem.Api.props",
+      "PackagePath": "buildTransitive\\SharmalRealEstateSystem.Api.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

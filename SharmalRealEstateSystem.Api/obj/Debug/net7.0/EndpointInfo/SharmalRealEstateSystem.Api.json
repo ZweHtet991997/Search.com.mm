@@ -1,0 +1,2768 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "Sharmal Real Estate Management System API",
+    "version": "v1"
+  },
+  "paths": {
+    "/api/v1/feature-ads/filter": {
+      "post": {
+        "tags": [
+          "Ads"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/FilterAdsRequestModel"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/FilterAdsRequestModel"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/FilterAdsRequestModel"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/v1/feature-ads": {
+      "get": {
+        "tags": [
+          "Ads"
+        ],
+        "parameters": [
+          {
+            "name": "userId",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "pageNo",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "pageSize",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Ads"
+        ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "Title": {
+                    "type": "string"
+                  },
+                  "AdsCode": {
+                    "type": "string"
+                  },
+                  "TargetUrl": {
+                    "type": "string"
+                  },
+                  "AdsLayout": {
+                    "type": "string"
+                  },
+                  "StartDate": {
+                    "type": "string"
+                  },
+                  "EndDate": {
+                    "type": "string"
+                  },
+                  "CreatedBy": {
+                    "type": "string"
+                  },
+                  "AdsPagePlacements": {
+                    "type": "array",
+                    "items": {
+                      "$ref": "#/components/schemas/AdsPagePlacementRequestModel"
+                    }
+                  },
+                  "Files": {
+                    "type": "array",
+                    "items": {
+                      "type": "string",
+                      "format": "binary"
+                    }
+                  }
+                }
+              },
+              "encoding": {
+                "Title": {
+                  "style": "form"
+                },
+                "AdsCode": {
+                  "style": "form"
+                },
+                "TargetUrl": {
+                  "style": "form"
+                },
+                "AdsLayout": {
+                  "style": "form"
+                },
+                "StartDate": {
+                  "style": "form"
+                },
+                "EndDate": {
+                  "style": "form"
+                },
+                "CreatedBy": {
+                  "style": "form"
+                },
+                "AdsPagePlacements": {
+                  "style": "form"
+                },
+                "Files": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "Ads"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "Title": {
+                    "type": "string"
+                  },
+                  "AdsCode": {
+                    "type": "string"
+                  },
+                  "TargetUrl": {
+                    "type": "string"
+                  },
+                  "AdsLayout": {
+                    "type": "string"
+                  },
+                  "StartDate": {
+                    "type": "string"
+                  },
+                  "EndDate": {
+                    "type": "string"
+                  },
+                  "UpdatedBy": {
+                    "type": "string"
+                  },
+                  "AdsPagePlacements": {
+                    "type": "array",
+                    "items": {
+                      "$ref": "#/components/schemas/AdsPagePlacementRequestModel"
+                    }
+                  },
+                  "Files": {
+                    "type": "array",
+                    "items": {
+                      "type": "string",
+                      "format": "binary"
+                    }
+                  },
+                  "RemoveFiles": {
+                    "type": "array",
+                    "items": {
+                      "$ref": "#/components/schemas/UpdateAdsRemoveFileRequestModel"
+                    }
+                  }
+                }
+              },
+              "encoding": {
+                "Title": {
+                  "style": "form"
+                },
+                "AdsCode": {
+                  "style": "form"
+                },
+                "TargetUrl": {
+                  "style": "form"
+                },
+                "AdsLayout": {
+                  "style": "form"
+                },
+                "StartDate": {
+                  "style": "form"
+                },
+                "EndDate": {
+                  "style": "form"
+                },
+                "UpdatedBy": {
+                  "style": "form"
+                },
+                "AdsPagePlacements": {
+                  "style": "form"
+                },
+                "Files": {
+                  "style": "form"
+                },
+                "RemoveFiles": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "Ads"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/v1/feature-ads-page": {
+      "get": {
+        "tags": [
+          "AdsPage"
+        ],
+        "parameters": [
+          {
+            "name": "isDeleted",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/v1/admin-ads-page": {
+      "post": {
+        "tags": [
+          "AdsPage"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AdsPageRequestModel"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AdsPageRequestModel"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/AdsPageRequestModel"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "AdsPage"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AdsPageRequestModel"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AdsPageRequestModel"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/AdsPageRequestModel"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      },
+      "patch": {
+        "tags": [
+          "AdsPage"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "AdsPage"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Aes/Encrypt": {
+      "get": {
+        "tags": [
+          "Aes"
+        ],
+        "parameters": [
+          {
+            "name": "plainText",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Aes/Decrypt": {
+      "get": {
+        "tags": [
+          "Aes"
+        ],
+        "parameters": [
+          {
+            "name": "encryptedText",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/v1/admin-account": {
+      "get": {
+        "tags": [
+          "Auth"
+        ],
+        "parameters": [
+          {
+            "name": "pageNo",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "pageSize",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      },
+      "patch": {
+        "tags": [
+          "Auth"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "Auth"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/v1/admin-account/register": {
+      "post": {
+        "tags": [
+          "Auth"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/RegisterRequestModel"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/RegisterRequestModel"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/RegisterRequestModel"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/v1/feature-account/login": {
+      "post": {
+        "tags": [
+          "Auth"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/LoginRequestModel"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/LoginRequestModel"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/LoginRequestModel"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/v1/admin-account/update-profile": {
+      "put": {
+        "tags": [
+          "Auth"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdateProfileRequestModel"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdateProfileRequestModel"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdateProfileRequestModel"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/v1/feature-account/update-password": {
+      "put": {
+        "tags": [
+          "Auth"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdatePasswordRequestModel"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdatePasswordRequestModel"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdatePasswordRequestModel"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/v2/validate-token": {
+      "post": {
+        "tags": [
+          "Auth"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/v1/feature-car/filter": {
+      "post": {
+        "tags": [
+          "Car"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/GetCarListRequestModel"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/GetCarListRequestModel"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/GetCarListRequestModel"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/v1/feature-car/car-id": {
+      "get": {
+        "tags": [
+          "Car"
+        ],
+        "parameters": [
+          {
+            "name": "carId",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/v1/feature-car": {
+      "get": {
+        "tags": [
+          "Car"
+        ],
+        "parameters": [
+          {
+            "name": "userId",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "pageNo",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "pageSize",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Car"
+        ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "Title": {
+                    "type": "string"
+                  },
+                  "Code": {
+                    "type": "string"
+                  },
+                  "Status": {
+                    "type": "string"
+                  },
+                  "Description": {
+                    "type": "string"
+                  },
+                  "Gearbox": {
+                    "type": "string"
+                  },
+                  "SteeringPosition": {
+                    "type": "string"
+                  },
+                  "EnginePower": {
+                    "type": "string"
+                  },
+                  "FuelType": {
+                    "type": "string"
+                  },
+                  "Mileage": {
+                    "type": "string"
+                  },
+                  "Manufacturer": {
+                    "type": "string"
+                  },
+                  "BuildType": {
+                    "type": "string"
+                  },
+                  "Model": {
+                    "type": "string"
+                  },
+                  "Year": {
+                    "type": "string"
+                  },
+                  "PlateDivision": {
+                    "type": "string"
+                  },
+                  "PlateNo": {
+                    "type": "string"
+                  },
+                  "PlateColor": {
+                    "type": "string"
+                  },
+                  "LincenseStatus": {
+                    "type": "string"
+                  },
+                  "CarColor": {
+                    "type": "string"
+                  },
+                  "Condition": {
+                    "type": "string"
+                  },
+                  "Price": {
+                    "type": "string"
+                  },
+                  "SpecialStatus": {
+                    "type": "string"
+                  },
+                  "NumberOfViewers": {
+                    "type": "string"
+                  },
+                  "Availability": {
+                    "type": "string"
+                  },
+                  "IsSold": {
+                    "type": "boolean"
+                  },
+                  "Location": {
+                    "type": "string"
+                  },
+                  "City": {
+                    "type": "string"
+                  },
+                  "PaymentOption": {
+                    "type": "string"
+                  },
+                  "TrimName": {
+                    "type": "string"
+                  },
+                  "SellerName": {
+                    "type": "string"
+                  },
+                  "PrimaryPhoneNumber": {
+                    "type": "string"
+                  },
+                  "SecondaryPhoneNumber": {
+                    "type": "string"
+                  },
+                  "Email": {
+                    "type": "string"
+                  },
+                  "Address": {
+                    "type": "string"
+                  },
+                  "CreatedBy": {
+                    "type": "string"
+                  },
+                  "IsPopular": {
+                    "type": "boolean"
+                  },
+                  "IsHotDeal": {
+                    "type": "boolean"
+                  },
+                  "Files": {
+                    "type": "array",
+                    "items": {
+                      "type": "string",
+                      "format": "binary"
+                    }
+                  }
+                }
+              },
+              "encoding": {
+                "Title": {
+                  "style": "form"
+                },
+                "Code": {
+                  "style": "form"
+                },
+                "Status": {
+                  "style": "form"
+                },
+                "Description": {
+                  "style": "form"
+                },
+                "Gearbox": {
+                  "style": "form"
+                },
+                "SteeringPosition": {
+                  "style": "form"
+                },
+                "EnginePower": {
+                  "style": "form"
+                },
+                "FuelType": {
+                  "style": "form"
+                },
+                "Mileage": {
+                  "style": "form"
+                },
+                "Manufacturer": {
+                  "style": "form"
+                },
+                "BuildType": {
+                  "style": "form"
+                },
+                "Model": {
+                  "style": "form"
+                },
+                "Year": {
+                  "style": "form"
+                },
+                "PlateDivision": {
+                  "style": "form"
+                },
+                "PlateNo": {
+                  "style": "form"
+                },
+                "PlateColor": {
+                  "style": "form"
+                },
+                "LincenseStatus": {
+                  "style": "form"
+                },
+                "CarColor": {
+                  "style": "form"
+                },
+                "Condition": {
+                  "style": "form"
+                },
+                "Price": {
+                  "style": "form"
+                },
+                "SpecialStatus": {
+                  "style": "form"
+                },
+                "NumberOfViewers": {
+                  "style": "form"
+                },
+                "Availability": {
+                  "style": "form"
+                },
+                "IsSold": {
+                  "style": "form"
+                },
+                "Location": {
+                  "style": "form"
+                },
+                "City": {
+                  "style": "form"
+                },
+                "PaymentOption": {
+                  "style": "form"
+                },
+                "TrimName": {
+                  "style": "form"
+                },
+                "SellerName": {
+                  "style": "form"
+                },
+                "PrimaryPhoneNumber": {
+                  "style": "form"
+                },
+                "SecondaryPhoneNumber": {
+                  "style": "form"
+                },
+                "Email": {
+                  "style": "form"
+                },
+                "Address": {
+                  "style": "form"
+                },
+                "CreatedBy": {
+                  "style": "form"
+                },
+                "IsPopular": {
+                  "style": "form"
+                },
+                "IsHotDeal": {
+                  "style": "form"
+                },
+                "Files": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "Car"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "Title": {
+                    "type": "string"
+                  },
+                  "Code": {
+                    "type": "string"
+                  },
+                  "Status": {
+                    "type": "string"
+                  },
+                  "Description": {
+                    "type": "string"
+                  },
+                  "Gearbox": {
+                    "type": "string"
+                  },
+                  "SteeringPosition": {
+                    "type": "string"
+                  },
+                  "EnginePower": {
+                    "type": "string"
+                  },
+                  "FuelType": {
+                    "type": "string"
+                  },
+                  "Mileage": {
+                    "type": "string"
+                  },
+                  "Manufacturer": {
+                    "type": "string"
+                  },
+                  "BuildType": {
+                    "type": "string"
+                  },
+                  "Model": {
+                    "type": "string"
+                  },
+                  "Year": {
+                    "type": "string"
+                  },
+                  "PlateDivision": {
+                    "type": "string"
+                  },
+                  "PlateNo": {
+                    "type": "string"
+                  },
+                  "PlateColor": {
+                    "type": "string"
+                  },
+                  "LincenseStatus": {
+                    "type": "string"
+                  },
+                  "CarColor": {
+                    "type": "string"
+                  },
+                  "Condition": {
+                    "type": "string"
+                  },
+                  "Price": {
+                    "type": "string"
+                  },
+                  "SpecialStatus": {
+                    "type": "string"
+                  },
+                  "NumberOfViewers": {
+                    "type": "string"
+                  },
+                  "Availability": {
+                    "type": "string"
+                  },
+                  "IsSold": {
+                    "type": "boolean"
+                  },
+                  "Location": {
+                    "type": "string"
+                  },
+                  "City": {
+                    "type": "string"
+                  },
+                  "PaymentOption": {
+                    "type": "string"
+                  },
+                  "TrimName": {
+                    "type": "string"
+                  },
+                  "SellerName": {
+                    "type": "string"
+                  },
+                  "PrimaryPhoneNumber": {
+                    "type": "string"
+                  },
+                  "SecondaryPhoneNumber": {
+                    "type": "string"
+                  },
+                  "Email": {
+                    "type": "string"
+                  },
+                  "Address": {
+                    "type": "string"
+                  },
+                  "CreatedBy": {
+                    "type": "string"
+                  },
+                  "UpdatedBy": {
+                    "type": "string"
+                  },
+                  "IsDeleted": {
+                    "type": "boolean"
+                  },
+                  "IsPopular": {
+                    "type": "boolean"
+                  },
+                  "IsHotDeal": {
+                    "type": "boolean"
+                  },
+                  "Files": {
+                    "type": "array",
+                    "items": {
+                      "type": "string",
+                      "format": "binary"
+                    }
+                  },
+                  "RemoveImages": {
+                    "type": "array",
+                    "items": {
+                      "$ref": "#/components/schemas/RemoveCarImageRequestModel"
+                    }
+                  }
+                }
+              },
+              "encoding": {
+                "Title": {
+                  "style": "form"
+                },
+                "Code": {
+                  "style": "form"
+                },
+                "Status": {
+                  "style": "form"
+                },
+                "Description": {
+                  "style": "form"
+                },
+                "Gearbox": {
+                  "style": "form"
+                },
+                "SteeringPosition": {
+                  "style": "form"
+                },
+                "EnginePower": {
+                  "style": "form"
+                },
+                "FuelType": {
+                  "style": "form"
+                },
+                "Mileage": {
+                  "style": "form"
+                },
+                "Manufacturer": {
+                  "style": "form"
+                },
+                "BuildType": {
+                  "style": "form"
+                },
+                "Model": {
+                  "style": "form"
+                },
+                "Year": {
+                  "style": "form"
+                },
+                "PlateDivision": {
+                  "style": "form"
+                },
+                "PlateNo": {
+                  "style": "form"
+                },
+                "PlateColor": {
+                  "style": "form"
+                },
+                "LincenseStatus": {
+                  "style": "form"
+                },
+                "CarColor": {
+                  "style": "form"
+                },
+                "Condition": {
+                  "style": "form"
+                },
+                "Price": {
+                  "style": "form"
+                },
+                "SpecialStatus": {
+                  "style": "form"
+                },
+                "NumberOfViewers": {
+                  "style": "form"
+                },
+                "Availability": {
+                  "style": "form"
+                },
+                "IsSold": {
+                  "style": "form"
+                },
+                "Location": {
+                  "style": "form"
+                },
+                "City": {
+                  "style": "form"
+                },
+                "PaymentOption": {
+                  "style": "form"
+                },
+                "TrimName": {
+                  "style": "form"
+                },
+                "SellerName": {
+                  "style": "form"
+                },
+                "PrimaryPhoneNumber": {
+                  "style": "form"
+                },
+                "SecondaryPhoneNumber": {
+                  "style": "form"
+                },
+                "Email": {
+                  "style": "form"
+                },
+                "Address": {
+                  "style": "form"
+                },
+                "CreatedBy": {
+                  "style": "form"
+                },
+                "UpdatedBy": {
+                  "style": "form"
+                },
+                "IsDeleted": {
+                  "style": "form"
+                },
+                "IsPopular": {
+                  "style": "form"
+                },
+                "IsHotDeal": {
+                  "style": "form"
+                },
+                "Files": {
+                  "style": "form"
+                },
+                "RemoveImages": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "Car"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/v1/feature-dashboard": {
+      "get": {
+        "tags": [
+          "Dash"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/v1/feature-exchange-rate": {
+      "get": {
+        "tags": [
+          "ExchangeRate"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "ExchangeRate"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdateExchangeRateRequestModel"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdateExchangeRateRequestModel"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdateExchangeRateRequestModel"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "ExchangeRate"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/v1/feature-feature": {
+      "get": {
+        "tags": [
+          "Feature"
+        ],
+        "parameters": [
+          {
+            "name": "isDeleted",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/v1/admin-feature": {
+      "post": {
+        "tags": [
+          "Feature"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/FeatureRequestModel"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/FeatureRequestModel"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/FeatureRequestModel"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "Feature"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/FeatureRequestModel"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/FeatureRequestModel"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/FeatureRequestModel"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      },
+      "patch": {
+        "tags": [
+          "Feature"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "Feature"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/v1/feature-inquiry/filter": {
+      "post": {
+        "tags": [
+          "Inquiry"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/GetFilterInquiryRequestModel"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/GetFilterInquiryRequestModel"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/GetFilterInquiryRequestModel"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/v1/feature-inquiry": {
+      "post": {
+        "tags": [
+          "Inquiry"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/InquiryRequestModel"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/InquiryRequestModel"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/InquiryRequestModel"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      },
+      "patch": {
+        "tags": [
+          "Inquiry"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "Inquiry"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/v2/member-post/approved-rejected": {
+      "patch": {
+        "tags": [
+          "MemberPost"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "header",
+            "style": "simple",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "category",
+            "in": "header",
+            "style": "simple",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "decision",
+            "in": "header",
+            "style": "simple",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/v2/member-post/getlist": {
+      "post": {
+        "tags": [
+          "MemberPost"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/MemberPostListRequestModel"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/MemberPostListRequestModel"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/MemberPostListRequestModel"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/v1/feature-property/filter": {
+      "post": {
+        "tags": [
+          "Property"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/GetPropertyListRequestModel"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/GetPropertyListRequestModel"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/GetPropertyListRequestModel"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/v1/feature-property": {
+      "get": {
+        "tags": [
+          "Property"
+        ],
+        "parameters": [
+          {
+            "name": "userId",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "pageNo",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "pageSize",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Property"
+        ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "Title": {
+                    "type": "string"
+                  },
+                  "Code": {
+                    "type": "string"
+                  },
+                  "Status": {
+                    "type": "string"
+                  },
+                  "Type": {
+                    "type": "string"
+                  },
+                  "Price": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "PaymentOption": {
+                    "type": "string"
+                  },
+                  "Location": {
+                    "type": "string"
+                  },
+                  "City": {
+                    "type": "string"
+                  },
+                  "NumberOfViewers": {
+                    "type": "string"
+                  },
+                  "Bedrooms": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "Bathrooms": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "Area": {
+                    "type": "string"
+                  },
+                  "Condition": {
+                    "type": "string"
+                  },
+                  "Floor": {
+                    "type": "string"
+                  },
+                  "Description": {
+                    "type": "string"
+                  },
+                  "Furnished": {
+                    "type": "string"
+                  },
+                  "MapUrl": {
+                    "type": "string"
+                  },
+                  "SellerName": {
+                    "type": "string"
+                  },
+                  "PrimaryPhoneNumber": {
+                    "type": "string"
+                  },
+                  "SecondaryPhoneNumber": {
+                    "type": "string"
+                  },
+                  "Email": {
+                    "type": "string"
+                  },
+                  "Address": {
+                    "type": "string"
+                  },
+                  "CreatedBy": {
+                    "type": "string"
+                  },
+                  "CreatedDate": {
+                    "type": "string"
+                  },
+                  "Approved": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "IsPopular": {
+                    "type": "boolean"
+                  },
+                  "IsHotDeal": {
+                    "type": "boolean"
+                  },
+                  "Features": {
+                    "type": "array",
+                    "items": {
+                      "$ref": "#/components/schemas/PropertyFeatureRequestModel"
+                    }
+                  },
+                  "Files": {
+                    "type": "array",
+                    "items": {
+                      "type": "string",
+                      "format": "binary"
+                    }
+                  }
+                }
+              },
+              "encoding": {
+                "Title": {
+                  "style": "form"
+                },
+                "Code": {
+                  "style": "form"
+                },
+                "Status": {
+                  "style": "form"
+                },
+                "Type": {
+                  "style": "form"
+                },
+                "Price": {
+                  "style": "form"
+                },
+                "PaymentOption": {
+                  "style": "form"
+                },
+                "Location": {
+                  "style": "form"
+                },
+                "City": {
+                  "style": "form"
+                },
+                "NumberOfViewers": {
+                  "style": "form"
+                },
+                "Bedrooms": {
+                  "style": "form"
+                },
+                "Bathrooms": {
+                  "style": "form"
+                },
+                "Area": {
+                  "style": "form"
+                },
+                "Condition": {
+                  "style": "form"
+                },
+                "Floor": {
+                  "style": "form"
+                },
+                "Description": {
+                  "style": "form"
+                },
+                "Furnished": {
+                  "style": "form"
+                },
+                "MapUrl": {
+                  "style": "form"
+                },
+                "SellerName": {
+                  "style": "form"
+                },
+                "PrimaryPhoneNumber": {
+                  "style": "form"
+                },
+                "SecondaryPhoneNumber": {
+                  "style": "form"
+                },
+                "Email": {
+                  "style": "form"
+                },
+                "Address": {
+                  "style": "form"
+                },
+                "CreatedBy": {
+                  "style": "form"
+                },
+                "CreatedDate": {
+                  "style": "form"
+                },
+                "Approved": {
+                  "style": "form"
+                },
+                "IsPopular": {
+                  "style": "form"
+                },
+                "IsHotDeal": {
+                  "style": "form"
+                },
+                "Features": {
+                  "style": "form"
+                },
+                "Files": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "Property"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "Title": {
+                    "type": "string"
+                  },
+                  "Code": {
+                    "type": "string"
+                  },
+                  "Status": {
+                    "type": "string"
+                  },
+                  "Type": {
+                    "type": "string"
+                  },
+                  "Price": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "PaymentOption": {
+                    "type": "string"
+                  },
+                  "Location": {
+                    "type": "string"
+                  },
+                  "City": {
+                    "type": "string"
+                  },
+                  "NumberOfViewers": {
+                    "type": "string"
+                  },
+                  "Bedrooms": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "Area": {
+                    "type": "string"
+                  },
+                  "Condition": {
+                    "type": "string"
+                  },
+                  "Floor": {
+                    "type": "string"
+                  },
+                  "Description": {
+                    "type": "string"
+                  },
+                  "Furnished": {
+                    "type": "string"
+                  },
+                  "MapUrl": {
+                    "type": "string"
+                  },
+                  "SellerName": {
+                    "type": "string"
+                  },
+                  "PrimaryPhoneNumber": {
+                    "type": "string"
+                  },
+                  "SecondaryPhoneNumber": {
+                    "type": "string"
+                  },
+                  "Email": {
+                    "type": "string"
+                  },
+                  "Address": {
+                    "type": "string"
+                  },
+                  "UpdatedBy": {
+                    "type": "string"
+                  },
+                  "CreatedBy": {
+                    "type": "string"
+                  },
+                  "IsPopular": {
+                    "type": "boolean"
+                  },
+                  "IsHotDeal": {
+                    "type": "boolean"
+                  },
+                  "Features": {
+                    "type": "array",
+                    "items": {
+                      "$ref": "#/components/schemas/PropertyFeatureRequestModel"
+                    }
+                  },
+                  "RemoveImages": {
+                    "type": "array",
+                    "items": {
+                      "$ref": "#/components/schemas/RemoveImageRequestModel"
+                    }
+                  },
+                  "Files": {
+                    "type": "array",
+                    "items": {
+                      "type": "string",
+                      "format": "binary"
+                    }
+                  }
+                }
+              },
+              "encoding": {
+                "Title": {
+                  "style": "form"
+                },
+                "Code": {
+                  "style": "form"
+                },
+                "Status": {
+                  "style": "form"
+                },
+                "Type": {
+                  "style": "form"
+                },
+                "Price": {
+                  "style": "form"
+                },
+                "PaymentOption": {
+                  "style": "form"
+                },
+                "Location": {
+                  "style": "form"
+                },
+                "City": {
+                  "style": "form"
+                },
+                "NumberOfViewers": {
+                  "style": "form"
+                },
+                "Bedrooms": {
+                  "style": "form"
+                },
+                "Area": {
+                  "style": "form"
+                },
+                "Condition": {
+                  "style": "form"
+                },
+                "Floor": {
+                  "style": "form"
+                },
+                "Description": {
+                  "style": "form"
+                },
+                "Furnished": {
+                  "style": "form"
+                },
+                "MapUrl": {
+                  "style": "form"
+                },
+                "SellerName": {
+                  "style": "form"
+                },
+                "PrimaryPhoneNumber": {
+                  "style": "form"
+                },
+                "SecondaryPhoneNumber": {
+                  "style": "form"
+                },
+                "Email": {
+                  "style": "form"
+                },
+                "Address": {
+                  "style": "form"
+                },
+                "UpdatedBy": {
+                  "style": "form"
+                },
+                "CreatedBy": {
+                  "style": "form"
+                },
+                "IsPopular": {
+                  "style": "form"
+                },
+                "IsHotDeal": {
+                  "style": "form"
+                },
+                "Features": {
+                  "style": "form"
+                },
+                "RemoveImages": {
+                  "style": "form"
+                },
+                "Files": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "Property"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/v1/feature-property/property-id": {
+      "get": {
+        "tags": [
+          "Property"
+        ],
+        "parameters": [
+          {
+            "name": "propertyId",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/v1/jwt": {
+      "post": {
+        "tags": [
+          "TokenValidation"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/JwtRequestModel"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/JwtRequestModel"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/JwtRequestModel"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "AdsPagePlacementRequestModel": {
+        "type": "object",
+        "properties": {
+          "AdsPageId": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "AdsPageRequestModel": {
+        "type": "object",
+        "properties": {
+          "Pages": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "FeatureRequestModel": {
+        "type": "object",
+        "properties": {
+          "Name": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "FilterAdsRequestModel": {
+        "type": "object",
+        "properties": {
+          "PageNo": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "PageSize": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "Status": {
+            "type": "string",
+            "nullable": true
+          },
+          "Pages": {
+            "type": "string",
+            "nullable": true
+          },
+          "Layout": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "GetCarListRequestModel": {
+        "type": "object",
+        "properties": {
+          "PageNo": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "PageSize": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "Location": {
+            "type": "string",
+            "nullable": true
+          },
+          "City": {
+            "type": "string",
+            "nullable": true
+          },
+          "Manufacturer": {
+            "type": "string",
+            "nullable": true
+          },
+          "Model": {
+            "type": "string",
+            "nullable": true
+          },
+          "EnginePower": {
+            "type": "string",
+            "nullable": true
+          },
+          "Gearbox": {
+            "type": "string",
+            "nullable": true
+          },
+          "SteerPosition": {
+            "type": "string",
+            "nullable": true
+          },
+          "Color": {
+            "type": "string",
+            "nullable": true
+          },
+          "Code": {
+            "type": "string",
+            "nullable": true
+          },
+          "Condition": {
+            "type": "string",
+            "nullable": true
+          },
+          "MinYear": {
+            "type": "string",
+            "nullable": true
+          },
+          "MaxYear": {
+            "type": "string",
+            "nullable": true
+          },
+          "FuelType": {
+            "type": "string",
+            "nullable": true
+          },
+          "IsPopular": {
+            "type": "string",
+            "nullable": true
+          },
+          "IsHotDeal": {
+            "type": "string",
+            "nullable": true
+          },
+          "MinPrice": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "MaxPrice": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "MinMileAge": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "MaxMileAge": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "BuildType": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "GetFilterInquiryRequestModel": {
+        "type": "object",
+        "properties": {
+          "PageNo": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "PageSize": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "Status": {
+            "type": "string",
+            "nullable": true
+          },
+          "InquiryStatus": {
+            "type": "string",
+            "nullable": true
+          },
+          "FilterType": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "GetPropertyListRequestModel": {
+        "type": "object",
+        "properties": {
+          "PageNo": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "PageSize": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "Location": {
+            "type": "string",
+            "nullable": true
+          },
+          "City": {
+            "type": "string",
+            "nullable": true
+          },
+          "Furnished": {
+            "type": "string",
+            "nullable": true
+          },
+          "Type": {
+            "type": "string",
+            "nullable": true
+          },
+          "Code": {
+            "type": "string",
+            "nullable": true
+          },
+          "PaymentOption": {
+            "type": "string",
+            "nullable": true
+          },
+          "Status": {
+            "type": "string",
+            "nullable": true
+          },
+          "MinPrice": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "MaxPrice": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "MinBedRooms": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "MaxBedRooms": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "MinBathRooms": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "MaxBathRooms": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "IsPopular": {
+            "type": "string",
+            "nullable": true
+          },
+          "IsHotDeal": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "InquiryRequestModel": {
+        "type": "object",
+        "properties": {
+          "PropertyId": {
+            "type": "string",
+            "nullable": true
+          },
+          "CarId": {
+            "type": "string",
+            "nullable": true
+          },
+          "UserName": {
+            "type": "string",
+            "nullable": true
+          },
+          "PhoneNumber": {
+            "type": "string",
+            "nullable": true
+          },
+          "Email": {
+            "type": "string",
+            "nullable": true
+          },
+          "Description": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "JwtRequestModel": {
+        "type": "object",
+        "properties": {
+          "Token": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "LoginRequestModel": {
+        "type": "object",
+        "properties": {
+          "Email": {
+            "type": "string",
+            "nullable": true
+          },
+          "Password": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "MemberPostListRequestModel": {
+        "type": "object",
+        "properties": {
+          "PageNo": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "PageSize": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "Category": {
+            "type": "string",
+            "nullable": true
+          },
+          "Status": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "PropertyFeatureRequestModel": {
+        "type": "object",
+        "properties": {
+          "FeatureId": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "RegisterRequestModel": {
+        "type": "object",
+        "properties": {
+          "UserName": {
+            "type": "string",
+            "nullable": true
+          },
+          "Email": {
+            "type": "string",
+            "nullable": true
+          },
+          "Password": {
+            "type": "string",
+            "nullable": true
+          },
+          "UserRole": {
+            "type": "string",
+            "nullable": true
+          },
+          "RequestTypeFor": {
+            "type": "string",
+            "nullable": true
+          },
+          "CreatedBy": {
+            "type": "string",
+            "nullable": true
+          },
+          "UpdatedBy": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "RemoveCarImageRequestModel": {
+        "type": "object",
+        "properties": {
+          "ImageId": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "RemoveImageRequestModel": {
+        "type": "object",
+        "properties": {
+          "ImageId": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "UpdateAdsRemoveFileRequestModel": {
+        "type": "object",
+        "properties": {
+          "ImageId": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "UpdateExchangeRateDataModel": {
+        "type": "object",
+        "properties": {
+          "ExchangeRateId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "Currency": {
+            "type": "string",
+            "nullable": true
+          },
+          "ExchangeRate": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "UpdateExchangeRateRequestModel": {
+        "type": "object",
+        "properties": {
+          "ExchangeRates": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/UpdateExchangeRateDataModel"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "UpdatePasswordRequestModel": {
+        "type": "object",
+        "properties": {
+          "OldPassword": {
+            "type": "string",
+            "nullable": true
+          },
+          "NewPassword": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "UpdateProfileRequestModel": {
+        "type": "object",
+        "properties": {
+          "UserName": {
+            "type": "string",
+            "nullable": true
+          },
+          "Email": {
+            "type": "string",
+            "nullable": true
+          },
+          "UserRole": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "securitySchemes": {
+      "Bearer": {
+        "type": "apiKey",
+        "name": "Authorization",
+        "in": "header"
+      }
+    }
+  },
+  "security": [
+    {
+      "Bearer": [ ]
+    }
+  ]
+}

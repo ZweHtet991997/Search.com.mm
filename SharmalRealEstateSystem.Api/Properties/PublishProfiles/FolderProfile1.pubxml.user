@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <_PublishTargetUrl>C:\MyProjects\Sharmal_BackendApi\Publish</_PublishTargetUrl>
+    <History>True|2024-11-14T08:38:40.3094203Z||;True|2024-11-13T12:37:11.0448565+06:30||;True|2024-11-13T12:24:24.0496098+06:30||;True|2024-11-13T11:53:59.6092936+06:30||;True|2024-11-13T11:52:52.7910607+06:30||;True|2024-11-13T11:02:09.3214819+06:30||;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+</Project>

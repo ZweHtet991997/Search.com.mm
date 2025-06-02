@@ -1,0 +1,331 @@
+{
+  "Version": 1,
+  "Hash": "XMLcpukx9WxAJiLCxNOGSAJCH8d1Q9ChsSRfOZcLFWc=",
+  "Source": "SharmalRealEstateSystem.Api",
+  "BasePath": "_content/SharmalRealEstateSystem.Api",
+  "Mode": "Default",
+  "ManifestType": "Publish",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "SharmalRealEstateSystem.Api\\wwwroot",
+      "Source": "SharmalRealEstateSystem.Api",
+      "ContentRoot": "C:\\MyProjects\\Sharmal_BackendApi\\search.com.mm\\SharmalRealEstateSystem.Api\\wwwroot\\",
+      "BasePath": "_content/SharmalRealEstateSystem.Api",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\MyProjects\\Sharmal_BackendApi\\search.com.mm\\SharmalRealEstateSystem.Api\\wwwroot\\img\\exchange_rate\\JPY.png",
+      "SourceId": "SharmalRealEstateSystem.Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\MyProjects\\Sharmal_BackendApi\\search.com.mm\\SharmalRealEstateSystem.Api\\wwwroot\\",
+      "BasePath": "_content/SharmalRealEstateSystem.Api",
+      "RelativePath": "img/exchange_rate/JPY#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "xxbun7a4sv",
+      "Integrity": "9SqVN4xC+VRQWy7neu8gdqGP/hQFR5T+H6eFpdGS7bQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\exchange_rate\\JPY.png"
+    },
+    {
+      "Identity": "C:\\MyProjects\\Sharmal_BackendApi\\search.com.mm\\SharmalRealEstateSystem.Api\\wwwroot\\img\\exchange_rate\\THB.png",
+      "SourceId": "SharmalRealEstateSystem.Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\MyProjects\\Sharmal_BackendApi\\search.com.mm\\SharmalRealEstateSystem.Api\\wwwroot\\",
+      "BasePath": "_content/SharmalRealEstateSystem.Api",
+      "RelativePath": "img/exchange_rate/THB#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "bsc8cg8466",
+      "Integrity": "RcHcNEB3asPTmmZCLHDrDJUQH+ODxz09ZrT211yZ+50=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\exchange_rate\\THB.png"
+    },
+    {
+      "Identity": "C:\\MyProjects\\Sharmal_BackendApi\\search.com.mm\\SharmalRealEstateSystem.Api\\wwwroot\\img\\exchange_rate\\USD.png",
+      "SourceId": "SharmalRealEstateSystem.Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\MyProjects\\Sharmal_BackendApi\\search.com.mm\\SharmalRealEstateSystem.Api\\wwwroot\\",
+      "BasePath": "_content/SharmalRealEstateSystem.Api",
+      "RelativePath": "img/exchange_rate/USD#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "823w515owz",
+      "Integrity": "gA8x9zr6DNql0q/1au7aNQqu01cRdTmVDAclGJ4M+6Y=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\exchange_rate\\USD.png"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "img/exchange_rate/JPY.png",
+      "AssetFile": "C:\\MyProjects\\Sharmal_BackendApi\\search.com.mm\\SharmalRealEstateSystem.Api\\wwwroot\\img\\exchange_rate\\JPY.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "773"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9SqVN4xC+VRQWy7neu8gdqGP/hQFR5T+H6eFpdGS7bQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 03 Jul 2024 15:40:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-9SqVN4xC+VRQWy7neu8gdqGP/hQFR5T+H6eFpdGS7bQ="
+        }
+      ]
+    },
+    {
+      "Route": "img/exchange_rate/JPY.xxbun7a4sv.png",
+      "AssetFile": "C:\\MyProjects\\Sharmal_BackendApi\\search.com.mm\\SharmalRealEstateSystem.Api\\wwwroot\\img\\exchange_rate\\JPY.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "773"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9SqVN4xC+VRQWy7neu8gdqGP/hQFR5T+H6eFpdGS7bQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 03 Jul 2024 15:40:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "xxbun7a4sv"
+        },
+        {
+          "Name": "label",
+          "Value": "img/exchange_rate/JPY.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-9SqVN4xC+VRQWy7neu8gdqGP/hQFR5T+H6eFpdGS7bQ="
+        }
+      ]
+    },
+    {
+      "Route": "img/exchange_rate/THB.bsc8cg8466.png",
+      "AssetFile": "C:\\MyProjects\\Sharmal_BackendApi\\search.com.mm\\SharmalRealEstateSystem.Api\\wwwroot\\img\\exchange_rate\\THB.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "505"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"RcHcNEB3asPTmmZCLHDrDJUQH+ODxz09ZrT211yZ+50=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 03 Jul 2024 15:39:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "bsc8cg8466"
+        },
+        {
+          "Name": "label",
+          "Value": "img/exchange_rate/THB.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-RcHcNEB3asPTmmZCLHDrDJUQH+ODxz09ZrT211yZ+50="
+        }
+      ]
+    },
+    {
+      "Route": "img/exchange_rate/THB.png",
+      "AssetFile": "C:\\MyProjects\\Sharmal_BackendApi\\search.com.mm\\SharmalRealEstateSystem.Api\\wwwroot\\img\\exchange_rate\\THB.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "505"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"RcHcNEB3asPTmmZCLHDrDJUQH+ODxz09ZrT211yZ+50=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 03 Jul 2024 15:39:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-RcHcNEB3asPTmmZCLHDrDJUQH+ODxz09ZrT211yZ+50="
+        }
+      ]
+    },
+    {
+      "Route": "img/exchange_rate/USD.823w515owz.png",
+      "AssetFile": "C:\\MyProjects\\Sharmal_BackendApi\\search.com.mm\\SharmalRealEstateSystem.Api\\wwwroot\\img\\exchange_rate\\USD.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1268"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gA8x9zr6DNql0q/1au7aNQqu01cRdTmVDAclGJ4M+6Y=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 04 Jul 2024 04:25:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "823w515owz"
+        },
+        {
+          "Name": "label",
+          "Value": "img/exchange_rate/USD.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-gA8x9zr6DNql0q/1au7aNQqu01cRdTmVDAclGJ4M+6Y="
+        }
+      ]
+    },
+    {
+      "Route": "img/exchange_rate/USD.png",
+      "AssetFile": "C:\\MyProjects\\Sharmal_BackendApi\\search.com.mm\\SharmalRealEstateSystem.Api\\wwwroot\\img\\exchange_rate\\USD.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1268"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gA8x9zr6DNql0q/1au7aNQqu01cRdTmVDAclGJ4M+6Y=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 04 Jul 2024 04:25:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-gA8x9zr6DNql0q/1au7aNQqu01cRdTmVDAclGJ4M+6Y="
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "SharmalRealEstateSystem.Api\\SharmalRealEstateSystem.Api.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]
