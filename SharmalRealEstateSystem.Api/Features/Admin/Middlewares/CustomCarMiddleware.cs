@@ -112,7 +112,7 @@ public class CustomCarMiddleware
             Condition = formDataDictionary.TryGetValue("Condition", out var condition)
                 ? condition
                 : string.Empty,
-            Price = formDataDictionary.TryGetValue("Price", out var price) ? price : string.Empty,
+            Price = formDataDictionary.TryGetValue("Price", out var price) ? price.ToInt32() : 0,
             SpecialStatus = formDataDictionary.TryGetValue("SpecialStatus", out var specialStatus)
                 ? specialStatus
                 : string.Empty,
@@ -236,7 +236,7 @@ public class CustomCarMiddleware
             Condition = formDataDictionary.TryGetValue("Condition", out var condition)
                 ? condition
                 : string.Empty,
-            Price = formDataDictionary.TryGetValue("Price", out var price) ? price : string.Empty,
+            Price = formDataDictionary.TryGetValue("Price", out var price) ? price.ToInt32() : 0,
             SpecialStatus = formDataDictionary.TryGetValue("SpecialStatus", out var specialStatus)
                 ? specialStatus
                 : string.Empty,

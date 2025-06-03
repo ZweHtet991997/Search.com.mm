@@ -11,7 +11,7 @@ public class PropertyModel
 
     public string Type { get; set; } = null!;
 
-    public int Price { get; set; }
+    public decimal Price { get; set; }
 
     public string PaymentOption { get; set; } = null!;
 

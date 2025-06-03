@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "eAKWvck76A4=",
+  "dgSpecHash": "LQDBDU1hGok=",
   "success": true,
-  "projectFilePath": "C:\\MyProjects\\Sharmal_BackendApi\\search.com.mm\\SharmalRealEstateSystem.Repositories\\SharmalRealEstateSystem.Repositories.csproj",
+  "projectFilePath": "C:\\MyProjects\\Sharmal_BackendApi\\search.com.mm_develop\\Search.com.mm\\SharmalRealEstateSystem.Repositories\\SharmalRealEstateSystem.Repositories.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\zwewaiyanhtet\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\zwewaiyanhtet\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

@@ -172,11 +172,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\MyProjects\\Sharmal_BackendApi\\search.com.mm\\SharmalRealEstateSystem.Models\\SharmalRealEstateSystem.Models.csproj",
+      "projectUniqueName": "C:\\MyProjects\\Sharmal_BackendApi\\search.com.mm_develop\\Search.com.mm\\SharmalRealEstateSystem.Models\\SharmalRealEstateSystem.Models.csproj",
       "projectName": "SharmalRealEstateSystem.Models",
-      "projectPath": "C:\\MyProjects\\Sharmal_BackendApi\\search.com.mm\\SharmalRealEstateSystem.Models\\SharmalRealEstateSystem.Models.csproj",
+      "projectPath": "C:\\MyProjects\\Sharmal_BackendApi\\search.com.mm_develop\\Search.com.mm\\SharmalRealEstateSystem.Models\\SharmalRealEstateSystem.Models.csproj",
       "packagesPath": "C:\\Users\\zwewaiyanhtet\\.nuget\\packages\\",
-      "outputPath": "C:\\MyProjects\\Sharmal_BackendApi\\search.com.mm\\SharmalRealEstateSystem.Models\\obj\\",
+      "outputPath": "C:\\MyProjects\\Sharmal_BackendApi\\search.com.mm_develop\\Search.com.mm\\SharmalRealEstateSystem.Models\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SharmalRealEstateSystem.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+13eacc12500e219c68b7befc27f52aa31f865a17")]
 [assembly: System.Reflection.AssemblyProductAttribute("SharmalRealEstateSystem.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SharmalRealEstateSystem.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

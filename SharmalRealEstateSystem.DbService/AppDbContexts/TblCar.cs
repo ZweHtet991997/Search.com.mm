@@ -43,7 +43,7 @@ public partial class TblCar
 
     public string Condition { get; set; } = null!;
 
-    public string Price { get; set; } = null!;
+    public decimal Price { get; set; }
 
     public string? SpecialStatus { get; set; }
 

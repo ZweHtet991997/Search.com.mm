@@ -2975,11 +2975,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\MyProjects\\Sharmal_BackendApi\\search.com.mm\\SharmalRealEstateSystem.DbService\\SharmalRealEstateSystem.DbService.csproj",
+      "projectUniqueName": "C:\\MyProjects\\Sharmal_BackendApi\\search.com.mm_develop\\Search.com.mm\\SharmalRealEstateSystem.DbService\\SharmalRealEstateSystem.DbService.csproj",
       "projectName": "SharmalRealEstateSystem.DbService",
-      "projectPath": "C:\\MyProjects\\Sharmal_BackendApi\\search.com.mm\\SharmalRealEstateSystem.DbService\\SharmalRealEstateSystem.DbService.csproj",
+      "projectPath": "C:\\MyProjects\\Sharmal_BackendApi\\search.com.mm_develop\\Search.com.mm\\SharmalRealEstateSystem.DbService\\SharmalRealEstateSystem.DbService.csproj",
       "packagesPath": "C:\\Users\\zwewaiyanhtet\\.nuget\\packages\\",
-      "outputPath": "C:\\MyProjects\\Sharmal_BackendApi\\search.com.mm\\SharmalRealEstateSystem.DbService\\obj\\",
+      "outputPath": "C:\\MyProjects\\Sharmal_BackendApi\\search.com.mm_develop\\Search.com.mm\\SharmalRealEstateSystem.DbService\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

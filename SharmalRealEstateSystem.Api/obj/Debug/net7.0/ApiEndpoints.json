@@ -1166,7 +1166,7 @@
       },
       {
         "Name": "Price",
-        "Type": "System.Int32",
+        "Type": "System.Decimal",
         "IsRequired": false
       },
       {
@@ -1322,7 +1322,7 @@
       },
       {
         "Name": "Price",
-        "Type": "System.Int32",
+        "Type": "System.Decimal",
         "IsRequired": false
       },
       {

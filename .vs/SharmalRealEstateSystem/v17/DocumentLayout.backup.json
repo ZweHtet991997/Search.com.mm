@@ -1,41 +1,125 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\MyProjects\\Sharmal_BackendApi\\search.com.mm\\",
+  "WorkspaceRootPath": "C:\\MyProjects\\Sharmal_BackendApi\\search.com.mm_develop\\Search.com.mm\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6949EDAF-2EF3-4DF6-8279-76DE61DA4BF1}|SharmalRealEstateSystem.Api\\SharmalRealEstateSystem.Api.csproj|c:\\myprojects\\sharmal_backendapi\\search.com.mm\\sharmalrealestatesystem.api\\modularservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6949EDAF-2EF3-4DF6-8279-76DE61DA4BF1}|SharmalRealEstateSystem.Api\\SharmalRealEstateSystem.Api.csproj|solutionrelative:sharmalrealestatesystem.api\\modularservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6949EDAF-2EF3-4DF6-8279-76DE61DA4BF1}|SharmalRealEstateSystem.Api\\SharmalRealEstateSystem.Api.csproj|c:\\myprojects\\sharmal_backendapi\\search.com.mm_develop\\search.com.mm\\sharmalrealestatesystem.api\\features\\admin\\middlewares\\customcarmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6949EDAF-2EF3-4DF6-8279-76DE61DA4BF1}|SharmalRealEstateSystem.Api\\SharmalRealEstateSystem.Api.csproj|solutionrelative:sharmalrealestatesystem.api\\features\\admin\\middlewares\\customcarmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6949EDAF-2EF3-4DF6-8279-76DE61DA4BF1}|SharmalRealEstateSystem.Api\\SharmalRealEstateSystem.Api.csproj|c:\\myprojects\\sharmal_backendapi\\search.com.mm\\sharmalrealestatesystem.api\\features\\admin\\auth\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6949EDAF-2EF3-4DF6-8279-76DE61DA4BF1}|SharmalRealEstateSystem.Api\\SharmalRealEstateSystem.Api.csproj|solutionrelative:sharmalrealestatesystem.api\\features\\admin\\auth\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6949EDAF-2EF3-4DF6-8279-76DE61DA4BF1}|SharmalRealEstateSystem.Api\\SharmalRealEstateSystem.Api.csproj|c:\\myprojects\\sharmal_backendapi\\search.com.mm_develop\\search.com.mm\\sharmalrealestatesystem.api\\features\\admin\\middlewares\\custompropertymiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6949EDAF-2EF3-4DF6-8279-76DE61DA4BF1}|SharmalRealEstateSystem.Api\\SharmalRealEstateSystem.Api.csproj|solutionrelative:sharmalrealestatesystem.api\\features\\admin\\middlewares\\custompropertymiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6BB6A710-A5A1-4C43-A711-728B245B165E}|SharmalRealEstateSystem.Repositories\\SharmalRealEstateSystem.Repositories.csproj|c:\\myprojects\\sharmal_backendapi\\search.com.mm\\sharmalrealestatesystem.repositories\\features\\admin\\auth\\authrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6BB6A710-A5A1-4C43-A711-728B245B165E}|SharmalRealEstateSystem.Repositories\\SharmalRealEstateSystem.Repositories.csproj|solutionrelative:sharmalrealestatesystem.repositories\\features\\admin\\auth\\authrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6949EDAF-2EF3-4DF6-8279-76DE61DA4BF1}|SharmalRealEstateSystem.Api\\SharmalRealEstateSystem.Api.csproj|c:\\myprojects\\sharmal_backendapi\\search.com.mm\\sharmalrealestatesystem.api\\features\\members\\auth\\bl_memberauth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6949EDAF-2EF3-4DF6-8279-76DE61DA4BF1}|SharmalRealEstateSystem.Api\\SharmalRealEstateSystem.Api.csproj|solutionrelative:sharmalrealestatesystem.api\\features\\members\\auth\\bl_memberauth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{700C5FC4-A652-4B15-94A0-F544DE7CFB31}|SharmalRealEstateSystem.DbService\\SharmalRealEstateSystem.DbService.csproj|c:\\myprojects\\sharmal_backendapi\\search.com.mm\\sharmalrealestatesystem.dbservice\\appdbcontexts\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{700C5FC4-A652-4B15-94A0-F544DE7CFB31}|SharmalRealEstateSystem.DbService\\SharmalRealEstateSystem.DbService.csproj|solutionrelative:sharmalrealestatesystem.dbservice\\appdbcontexts\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{700C5FC4-A652-4B15-94A0-F544DE7CFB31}|SharmalRealEstateSystem.DbService\\SharmalRealEstateSystem.DbService.csproj|c:\\myprojects\\sharmal_backendapi\\search.com.mm\\sharmalrealestatesystem.dbservice\\appdbcontexts\\tblmember.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{700C5FC4-A652-4B15-94A0-F544DE7CFB31}|SharmalRealEstateSystem.DbService\\SharmalRealEstateSystem.DbService.csproj|solutionrelative:sharmalrealestatesystem.dbservice\\appdbcontexts\\tblmember.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6BB6A710-A5A1-4C43-A711-728B245B165E}|SharmalRealEstateSystem.Repositories\\SharmalRealEstateSystem.Repositories.csproj|c:\\myprojects\\sharmal_backendapi\\search.com.mm\\sharmalrealestatesystem.repositories\\features\\member\\auth\\memberauthrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6BB6A710-A5A1-4C43-A711-728B245B165E}|SharmalRealEstateSystem.Repositories\\SharmalRealEstateSystem.Repositories.csproj|solutionrelative:sharmalrealestatesystem.repositories\\features\\member\\auth\\memberauthrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6BB6A710-A5A1-4C43-A711-728B245B165E}|SharmalRealEstateSystem.Repositories\\SharmalRealEstateSystem.Repositories.csproj|c:\\myprojects\\sharmal_backendapi\\search.com.mm\\sharmalrealestatesystem.repositories\\features\\admin\\car\\carrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6BB6A710-A5A1-4C43-A711-728B245B165E}|SharmalRealEstateSystem.Repositories\\SharmalRealEstateSystem.Repositories.csproj|c:\\myprojects\\sharmal_backendapi\\search.com.mm_develop\\search.com.mm\\sharmalrealestatesystem.repositories\\features\\admin\\car\\carrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6BB6A710-A5A1-4C43-A711-728B245B165E}|SharmalRealEstateSystem.Repositories\\SharmalRealEstateSystem.Repositories.csproj|solutionrelative:sharmalrealestatesystem.repositories\\features\\admin\\car\\carrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{700C5FC4-A652-4B15-94A0-F544DE7CFB31}|SharmalRealEstateSystem.DbService\\SharmalRealEstateSystem.DbService.csproj|c:\\myprojects\\sharmal_backendapi\\search.com.mm\\sharmalrealestatesystem.dbservice\\appdbcontexts\\tbluser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6BB6A710-A5A1-4C43-A711-728B245B165E}|SharmalRealEstateSystem.Repositories\\SharmalRealEstateSystem.Repositories.csproj|c:\\myprojects\\sharmal_backendapi\\search.com.mm_develop\\search.com.mm\\sharmalrealestatesystem.repositories\\features\\admin\\property\\propertyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BB6A710-A5A1-4C43-A711-728B245B165E}|SharmalRealEstateSystem.Repositories\\SharmalRealEstateSystem.Repositories.csproj|solutionrelative:sharmalrealestatesystem.repositories\\features\\admin\\property\\propertyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6749D550-8BAA-445A-84E6-707C5F71882F}|SharmalRealEstateSystem.Models\\SharmalRealEstateSystem.Models.csproj|c:\\myprojects\\sharmal_backendapi\\search.com.mm_develop\\search.com.mm\\sharmalrealestatesystem.models\\features\\admin\\car\\updatecarrequestmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6749D550-8BAA-445A-84E6-707C5F71882F}|SharmalRealEstateSystem.Models\\SharmalRealEstateSystem.Models.csproj|solutionrelative:sharmalrealestatesystem.models\\features\\admin\\car\\updatecarrequestmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6749D550-8BAA-445A-84E6-707C5F71882F}|SharmalRealEstateSystem.Models\\SharmalRealEstateSystem.Models.csproj|c:\\myprojects\\sharmal_backendapi\\search.com.mm_develop\\search.com.mm\\sharmalrealestatesystem.models\\features\\admin\\car\\getcarlistrequestmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6749D550-8BAA-445A-84E6-707C5F71882F}|SharmalRealEstateSystem.Models\\SharmalRealEstateSystem.Models.csproj|solutionrelative:sharmalrealestatesystem.models\\features\\admin\\car\\getcarlistrequestmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6749D550-8BAA-445A-84E6-707C5F71882F}|SharmalRealEstateSystem.Models\\SharmalRealEstateSystem.Models.csproj|c:\\myprojects\\sharmal_backendapi\\search.com.mm_develop\\search.com.mm\\sharmalrealestatesystem.models\\features\\admin\\car\\carresponsemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6749D550-8BAA-445A-84E6-707C5F71882F}|SharmalRealEstateSystem.Models\\SharmalRealEstateSystem.Models.csproj|solutionrelative:sharmalrealestatesystem.models\\features\\admin\\car\\carresponsemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6749D550-8BAA-445A-84E6-707C5F71882F}|SharmalRealEstateSystem.Models\\SharmalRealEstateSystem.Models.csproj|c:\\myprojects\\sharmal_backendapi\\search.com.mm_develop\\search.com.mm\\sharmalrealestatesystem.models\\features\\admin\\car\\carrequestmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6749D550-8BAA-445A-84E6-707C5F71882F}|SharmalRealEstateSystem.Models\\SharmalRealEstateSystem.Models.csproj|solutionrelative:sharmalrealestatesystem.models\\features\\admin\\car\\carrequestmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6749D550-8BAA-445A-84E6-707C5F71882F}|SharmalRealEstateSystem.Models\\SharmalRealEstateSystem.Models.csproj|c:\\myprojects\\sharmal_backendapi\\search.com.mm_develop\\search.com.mm\\sharmalrealestatesystem.models\\features\\admin\\car\\carmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6749D550-8BAA-445A-84E6-707C5F71882F}|SharmalRealEstateSystem.Models\\SharmalRealEstateSystem.Models.csproj|solutionrelative:sharmalrealestatesystem.models\\features\\admin\\car\\carmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6749D550-8BAA-445A-84E6-707C5F71882F}|SharmalRealEstateSystem.Models\\SharmalRealEstateSystem.Models.csproj|c:\\myprojects\\sharmal_backendapi\\search.com.mm_develop\\search.com.mm\\sharmalrealestatesystem.models\\features\\admin\\car\\carlistresponsemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6749D550-8BAA-445A-84E6-707C5F71882F}|SharmalRealEstateSystem.Models\\SharmalRealEstateSystem.Models.csproj|solutionrelative:sharmalrealestatesystem.models\\features\\admin\\car\\carlistresponsemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{700C5FC4-A652-4B15-94A0-F544DE7CFB31}|SharmalRealEstateSystem.DbService\\SharmalRealEstateSystem.DbService.csproj|c:\\myprojects\\sharmal_backendapi\\search.com.mm_develop\\search.com.mm\\sharmalrealestatesystem.dbservice\\appdbcontexts\\tblcar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{700C5FC4-A652-4B15-94A0-F544DE7CFB31}|SharmalRealEstateSystem.DbService\\SharmalRealEstateSystem.DbService.csproj|solutionrelative:sharmalrealestatesystem.dbservice\\appdbcontexts\\tblcar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{881C9D2D-68B7-4395-8E29-40C15B0606E2}|SharmalRealEstateSystem.Shared\\SharmalRealEstateSystem.Shared.csproj|c:\\myprojects\\sharmal_backendapi\\search.com.mm_develop\\search.com.mm\\sharmalrealestatesystem.shared\\configs\\deployment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{881C9D2D-68B7-4395-8E29-40C15B0606E2}|SharmalRealEstateSystem.Shared\\SharmalRealEstateSystem.Shared.csproj|solutionrelative:sharmalrealestatesystem.shared\\configs\\deployment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6749D550-8BAA-445A-84E6-707C5F71882F}|SharmalRealEstateSystem.Models\\SharmalRealEstateSystem.Models.csproj|c:\\myprojects\\sharmal_backendapi\\search.com.mm_develop\\search.com.mm\\sharmalrealestatesystem.models\\features\\admin\\property\\updatepropertyrequestmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6749D550-8BAA-445A-84E6-707C5F71882F}|SharmalRealEstateSystem.Models\\SharmalRealEstateSystem.Models.csproj|solutionrelative:sharmalrealestatesystem.models\\features\\admin\\property\\updatepropertyrequestmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6749D550-8BAA-445A-84E6-707C5F71882F}|SharmalRealEstateSystem.Models\\SharmalRealEstateSystem.Models.csproj|c:\\myprojects\\sharmal_backendapi\\search.com.mm_develop\\search.com.mm\\sharmalrealestatesystem.models\\features\\admin\\property\\removeimagerequestmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6749D550-8BAA-445A-84E6-707C5F71882F}|SharmalRealEstateSystem.Models\\SharmalRealEstateSystem.Models.csproj|solutionrelative:sharmalrealestatesystem.models\\features\\admin\\property\\removeimagerequestmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6749D550-8BAA-445A-84E6-707C5F71882F}|SharmalRealEstateSystem.Models\\SharmalRealEstateSystem.Models.csproj|c:\\myprojects\\sharmal_backendapi\\search.com.mm_develop\\search.com.mm\\sharmalrealestatesystem.models\\features\\admin\\property\\propertyresponsemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6749D550-8BAA-445A-84E6-707C5F71882F}|SharmalRealEstateSystem.Models\\SharmalRealEstateSystem.Models.csproj|solutionrelative:sharmalrealestatesystem.models\\features\\admin\\property\\propertyresponsemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6749D550-8BAA-445A-84E6-707C5F71882F}|SharmalRealEstateSystem.Models\\SharmalRealEstateSystem.Models.csproj|c:\\myprojects\\sharmal_backendapi\\search.com.mm_develop\\search.com.mm\\sharmalrealestatesystem.models\\features\\admin\\property\\propertyrequestmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6749D550-8BAA-445A-84E6-707C5F71882F}|SharmalRealEstateSystem.Models\\SharmalRealEstateSystem.Models.csproj|solutionrelative:sharmalrealestatesystem.models\\features\\admin\\property\\propertyrequestmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6749D550-8BAA-445A-84E6-707C5F71882F}|SharmalRealEstateSystem.Models\\SharmalRealEstateSystem.Models.csproj|c:\\myprojects\\sharmal_backendapi\\search.com.mm_develop\\search.com.mm\\sharmalrealestatesystem.models\\features\\admin\\property\\getpropertylistrequestmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6749D550-8BAA-445A-84E6-707C5F71882F}|SharmalRealEstateSystem.Models\\SharmalRealEstateSystem.Models.csproj|solutionrelative:sharmalrealestatesystem.models\\features\\admin\\property\\getpropertylistrequestmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6749D550-8BAA-445A-84E6-707C5F71882F}|SharmalRealEstateSystem.Models\\SharmalRealEstateSystem.Models.csproj|c:\\myprojects\\sharmal_backendapi\\search.com.mm_develop\\search.com.mm\\sharmalrealestatesystem.models\\features\\admin\\property\\propertydatamodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6749D550-8BAA-445A-84E6-707C5F71882F}|SharmalRealEstateSystem.Models\\SharmalRealEstateSystem.Models.csproj|solutionrelative:sharmalrealestatesystem.models\\features\\admin\\property\\propertydatamodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6749D550-8BAA-445A-84E6-707C5F71882F}|SharmalRealEstateSystem.Models\\SharmalRealEstateSystem.Models.csproj|c:\\myprojects\\sharmal_backendapi\\search.com.mm_develop\\search.com.mm\\sharmalrealestatesystem.models\\features\\admin\\property\\propertylistresponsemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6749D550-8BAA-445A-84E6-707C5F71882F}|SharmalRealEstateSystem.Models\\SharmalRealEstateSystem.Models.csproj|solutionrelative:sharmalrealestatesystem.models\\features\\admin\\property\\propertylistresponsemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6749D550-8BAA-445A-84E6-707C5F71882F}|SharmalRealEstateSystem.Models\\SharmalRealEstateSystem.Models.csproj|c:\\myprojects\\sharmal_backendapi\\search.com.mm_develop\\search.com.mm\\sharmalrealestatesystem.models\\features\\admin\\property\\propertymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6749D550-8BAA-445A-84E6-707C5F71882F}|SharmalRealEstateSystem.Models\\SharmalRealEstateSystem.Models.csproj|solutionrelative:sharmalrealestatesystem.models\\features\\admin\\property\\propertymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{700C5FC4-A652-4B15-94A0-F544DE7CFB31}|SharmalRealEstateSystem.DbService\\SharmalRealEstateSystem.DbService.csproj|c:\\myprojects\\sharmal_backendapi\\search.com.mm_develop\\search.com.mm\\sharmalrealestatesystem.dbservice\\appdbcontexts\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{700C5FC4-A652-4B15-94A0-F544DE7CFB31}|SharmalRealEstateSystem.DbService\\SharmalRealEstateSystem.DbService.csproj|solutionrelative:sharmalrealestatesystem.dbservice\\appdbcontexts\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{700C5FC4-A652-4B15-94A0-F544DE7CFB31}|SharmalRealEstateSystem.DbService\\SharmalRealEstateSystem.DbService.csproj|c:\\myprojects\\sharmal_backendapi\\search.com.mm_develop\\search.com.mm\\sharmalrealestatesystem.dbservice\\appdbcontexts\\tblproperty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{700C5FC4-A652-4B15-94A0-F544DE7CFB31}|SharmalRealEstateSystem.DbService\\SharmalRealEstateSystem.DbService.csproj|solutionrelative:sharmalrealestatesystem.dbservice\\appdbcontexts\\tblproperty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{700C5FC4-A652-4B15-94A0-F544DE7CFB31}|SharmalRealEstateSystem.DbService\\SharmalRealEstateSystem.DbService.csproj|c:\\myprojects\\sharmal_backendapi\\search.com.mm_develop\\search.com.mm\\sharmalrealestatesystem.dbservice\\appdbcontexts\\tblpropertyfeature.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{700C5FC4-A652-4B15-94A0-F544DE7CFB31}|SharmalRealEstateSystem.DbService\\SharmalRealEstateSystem.DbService.csproj|solutionrelative:sharmalrealestatesystem.dbservice\\appdbcontexts\\tblpropertyfeature.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6949EDAF-2EF3-4DF6-8279-76DE61DA4BF1}|SharmalRealEstateSystem.Api\\SharmalRealEstateSystem.Api.csproj|c:\\myprojects\\sharmal_backendapi\\search.com.mm_develop\\search.com.mm\\sharmalrealestatesystem.api\\modularservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6949EDAF-2EF3-4DF6-8279-76DE61DA4BF1}|SharmalRealEstateSystem.Api\\SharmalRealEstateSystem.Api.csproj|solutionrelative:sharmalrealestatesystem.api\\modularservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6949EDAF-2EF3-4DF6-8279-76DE61DA4BF1}|SharmalRealEstateSystem.Api\\SharmalRealEstateSystem.Api.csproj|c:\\myprojects\\sharmal_backendapi\\search.com.mm_develop\\search.com.mm\\sharmalrealestatesystem.api\\features\\admin\\auth\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6949EDAF-2EF3-4DF6-8279-76DE61DA4BF1}|SharmalRealEstateSystem.Api\\SharmalRealEstateSystem.Api.csproj|solutionrelative:sharmalrealestatesystem.api\\features\\admin\\auth\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BB6A710-A5A1-4C43-A711-728B245B165E}|SharmalRealEstateSystem.Repositories\\SharmalRealEstateSystem.Repositories.csproj|c:\\myprojects\\sharmal_backendapi\\search.com.mm_develop\\search.com.mm\\sharmalrealestatesystem.repositories\\features\\admin\\auth\\authrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BB6A710-A5A1-4C43-A711-728B245B165E}|SharmalRealEstateSystem.Repositories\\SharmalRealEstateSystem.Repositories.csproj|solutionrelative:sharmalrealestatesystem.repositories\\features\\admin\\auth\\authrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6949EDAF-2EF3-4DF6-8279-76DE61DA4BF1}|SharmalRealEstateSystem.Api\\SharmalRealEstateSystem.Api.csproj|c:\\myprojects\\sharmal_backendapi\\search.com.mm_develop\\search.com.mm\\sharmalrealestatesystem.api\\features\\members\\auth\\bl_memberauth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6949EDAF-2EF3-4DF6-8279-76DE61DA4BF1}|SharmalRealEstateSystem.Api\\SharmalRealEstateSystem.Api.csproj|solutionrelative:sharmalrealestatesystem.api\\features\\members\\auth\\bl_memberauth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{700C5FC4-A652-4B15-94A0-F544DE7CFB31}|SharmalRealEstateSystem.DbService\\SharmalRealEstateSystem.DbService.csproj|c:\\myprojects\\sharmal_backendapi\\search.com.mm_develop\\search.com.mm\\sharmalrealestatesystem.dbservice\\appdbcontexts\\tblmember.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{700C5FC4-A652-4B15-94A0-F544DE7CFB31}|SharmalRealEstateSystem.DbService\\SharmalRealEstateSystem.DbService.csproj|solutionrelative:sharmalrealestatesystem.dbservice\\appdbcontexts\\tblmember.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BB6A710-A5A1-4C43-A711-728B245B165E}|SharmalRealEstateSystem.Repositories\\SharmalRealEstateSystem.Repositories.csproj|c:\\myprojects\\sharmal_backendapi\\search.com.mm_develop\\search.com.mm\\sharmalrealestatesystem.repositories\\features\\member\\auth\\memberauthrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BB6A710-A5A1-4C43-A711-728B245B165E}|SharmalRealEstateSystem.Repositories\\SharmalRealEstateSystem.Repositories.csproj|solutionrelative:sharmalrealestatesystem.repositories\\features\\member\\auth\\memberauthrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{700C5FC4-A652-4B15-94A0-F544DE7CFB31}|SharmalRealEstateSystem.DbService\\SharmalRealEstateSystem.DbService.csproj|c:\\myprojects\\sharmal_backendapi\\search.com.mm_develop\\search.com.mm\\sharmalrealestatesystem.dbservice\\appdbcontexts\\tbluser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{700C5FC4-A652-4B15-94A0-F544DE7CFB31}|SharmalRealEstateSystem.DbService\\SharmalRealEstateSystem.DbService.csproj|solutionrelative:sharmalrealestatesystem.dbservice\\appdbcontexts\\tbluser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -46,28 +130,363 @@
       "DocumentGroups": [
         {
           "DockedHeight": 329,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CustomPropertyMiddleware.cs",
+              "DocumentMoniker": "C:\\MyProjects\\Sharmal_BackendApi\\search.com.mm_develop\\Search.com.mm\\SharmalRealEstateSystem.Api\\Features\\Admin\\Middlewares\\CustomPropertyMiddleware.cs",
+              "RelativeDocumentMoniker": "SharmalRealEstateSystem.Api\\Features\\Admin\\Middlewares\\CustomPropertyMiddleware.cs",
+              "ToolTip": "C:\\MyProjects\\Sharmal_BackendApi\\search.com.mm_develop\\Search.com.mm\\SharmalRealEstateSystem.Api\\Features\\Admin\\Middlewares\\CustomPropertyMiddleware.cs",
+              "RelativeToolTip": "SharmalRealEstateSystem.Api\\Features\\Admin\\Middlewares\\CustomPropertyMiddleware.cs",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAtwE0AAABgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T04:15:01.199Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "CustomCarMiddleware.cs",
+              "DocumentMoniker": "C:\\MyProjects\\Sharmal_BackendApi\\search.com.mm_develop\\Search.com.mm\\SharmalRealEstateSystem.Api\\Features\\Admin\\Middlewares\\CustomCarMiddleware.cs",
+              "RelativeDocumentMoniker": "SharmalRealEstateSystem.Api\\Features\\Admin\\Middlewares\\CustomCarMiddleware.cs",
+              "ToolTip": "C:\\MyProjects\\Sharmal_BackendApi\\search.com.mm_develop\\Search.com.mm\\SharmalRealEstateSystem.Api\\Features\\Admin\\Middlewares\\CustomCarMiddleware.cs",
+              "RelativeToolTip": "SharmalRealEstateSystem.Api\\Features\\Admin\\Middlewares\\CustomCarMiddleware.cs",
+              "ViewState": "AgIAAOIAAAAAAAAAAAAlwPIAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T06:30:32.989Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UpdateCarRequestModel.cs",
+              "DocumentMoniker": "C:\\MyProjects\\Sharmal_BackendApi\\search.com.mm_develop\\Search.com.mm\\SharmalRealEstateSystem.Models\\Features\\Admin\\Car\\UpdateCarRequestModel.cs",
+              "RelativeDocumentMoniker": "SharmalRealEstateSystem.Models\\Features\\Admin\\Car\\UpdateCarRequestModel.cs",
+              "ToolTip": "C:\\MyProjects\\Sharmal_BackendApi\\search.com.mm_develop\\Search.com.mm\\SharmalRealEstateSystem.Models\\Features\\Admin\\Car\\UpdateCarRequestModel.cs",
+              "RelativeToolTip": "SharmalRealEstateSystem.Models\\Features\\Admin\\Car\\UpdateCarRequestModel.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAhwCgAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T05:48:23.847Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GetCarListRequestModel.cs",
+              "DocumentMoniker": "C:\\MyProjects\\Sharmal_BackendApi\\search.com.mm_develop\\Search.com.mm\\SharmalRealEstateSystem.Models\\Features\\Admin\\Car\\GetCarListRequestModel.cs",
+              "RelativeDocumentMoniker": "SharmalRealEstateSystem.Models\\Features\\Admin\\Car\\GetCarListRequestModel.cs",
+              "ToolTip": "C:\\MyProjects\\Sharmal_BackendApi\\search.com.mm_develop\\Search.com.mm\\SharmalRealEstateSystem.Models\\Features\\Admin\\Car\\GetCarListRequestModel.cs",
+              "RelativeToolTip": "SharmalRealEstateSystem.Models\\Features\\Admin\\Car\\GetCarListRequestModel.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAASwBYAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T05:48:13.695Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CarRepository.cs",
+              "DocumentMoniker": "C:\\MyProjects\\Sharmal_BackendApi\\search.com.mm_develop\\Search.com.mm\\SharmalRealEstateSystem.Repositories\\Features\\Admin\\Car\\CarRepository.cs",
+              "RelativeDocumentMoniker": "SharmalRealEstateSystem.Repositories\\Features\\Admin\\Car\\CarRepository.cs",
+              "ToolTip": "C:\\MyProjects\\Sharmal_BackendApi\\search.com.mm_develop\\Search.com.mm\\SharmalRealEstateSystem.Repositories\\Features\\Admin\\Car\\CarRepository.cs",
+              "RelativeToolTip": "SharmalRealEstateSystem.Repositories\\Features\\Admin\\Car\\CarRepository.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAtwDAAAABkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T08:09:26.384Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CarResponseModel.cs",
+              "DocumentMoniker": "C:\\MyProjects\\Sharmal_BackendApi\\search.com.mm_develop\\Search.com.mm\\SharmalRealEstateSystem.Models\\Features\\Admin\\Car\\CarResponseModel.cs",
+              "RelativeDocumentMoniker": "SharmalRealEstateSystem.Models\\Features\\Admin\\Car\\CarResponseModel.cs",
+              "ToolTip": "C:\\MyProjects\\Sharmal_BackendApi\\search.com.mm_develop\\Search.com.mm\\SharmalRealEstateSystem.Models\\Features\\Admin\\Car\\CarResponseModel.cs",
+              "RelativeToolTip": "SharmalRealEstateSystem.Models\\Features\\Admin\\Car\\CarResponseModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T05:48:12.19Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PropertyRepository.cs",
+              "DocumentMoniker": "C:\\MyProjects\\Sharmal_BackendApi\\search.com.mm_develop\\Search.com.mm\\SharmalRealEstateSystem.Repositories\\Features\\Admin\\Property\\PropertyRepository.cs",
+              "RelativeDocumentMoniker": "SharmalRealEstateSystem.Repositories\\Features\\Admin\\Property\\PropertyRepository.cs",
+              "ToolTip": "C:\\MyProjects\\Sharmal_BackendApi\\search.com.mm_develop\\Search.com.mm\\SharmalRealEstateSystem.Repositories\\Features\\Admin\\Property\\PropertyRepository.cs",
+              "RelativeToolTip": "SharmalRealEstateSystem.Repositories\\Features\\Admin\\Property\\PropertyRepository.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAIAwwCkAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T04:10:21.524Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CarRequestModel.cs",
+              "DocumentMoniker": "C:\\MyProjects\\Sharmal_BackendApi\\search.com.mm_develop\\Search.com.mm\\SharmalRealEstateSystem.Models\\Features\\Admin\\Car\\CarRequestModel.cs",
+              "RelativeDocumentMoniker": "SharmalRealEstateSystem.Models\\Features\\Admin\\Car\\CarRequestModel.cs",
+              "ToolTip": "C:\\MyProjects\\Sharmal_BackendApi\\search.com.mm_develop\\Search.com.mm\\SharmalRealEstateSystem.Models\\Features\\Admin\\Car\\CarRequestModel.cs",
+              "RelativeToolTip": "SharmalRealEstateSystem.Models\\Features\\Admin\\Car\\CarRequestModel.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAhwCgAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T05:48:02.784Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CarModel.cs",
+              "DocumentMoniker": "C:\\MyProjects\\Sharmal_BackendApi\\search.com.mm_develop\\Search.com.mm\\SharmalRealEstateSystem.Models\\Features\\Admin\\Car\\CarModel.cs",
+              "RelativeDocumentMoniker": "SharmalRealEstateSystem.Models\\Features\\Admin\\Car\\CarModel.cs",
+              "ToolTip": "C:\\MyProjects\\Sharmal_BackendApi\\search.com.mm_develop\\Search.com.mm\\SharmalRealEstateSystem.Models\\Features\\Admin\\Car\\CarModel.cs",
+              "RelativeToolTip": "SharmalRealEstateSystem.Models\\Features\\Admin\\Car\\CarModel.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAhwCoAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T05:47:50.382Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CarListResponseModel.cs",
+              "DocumentMoniker": "C:\\MyProjects\\Sharmal_BackendApi\\search.com.mm_develop\\Search.com.mm\\SharmalRealEstateSystem.Models\\Features\\Admin\\Car\\CarListResponseModel.cs",
+              "RelativeDocumentMoniker": "SharmalRealEstateSystem.Models\\Features\\Admin\\Car\\CarListResponseModel.cs",
+              "ToolTip": "C:\\MyProjects\\Sharmal_BackendApi\\search.com.mm_develop\\Search.com.mm\\SharmalRealEstateSystem.Models\\Features\\Admin\\Car\\CarListResponseModel.cs",
+              "RelativeToolTip": "SharmalRealEstateSystem.Models\\Features\\Admin\\Car\\CarListResponseModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T05:47:47.048Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "TblCar.cs",
+              "DocumentMoniker": "C:\\MyProjects\\Sharmal_BackendApi\\search.com.mm_develop\\Search.com.mm\\SharmalRealEstateSystem.DbService\\AppDbContexts\\TblCar.cs",
+              "RelativeDocumentMoniker": "SharmalRealEstateSystem.DbService\\AppDbContexts\\TblCar.cs",
+              "ToolTip": "C:\\MyProjects\\Sharmal_BackendApi\\search.com.mm_develop\\Search.com.mm\\SharmalRealEstateSystem.DbService\\AppDbContexts\\TblCar.cs",
+              "RelativeToolTip": "SharmalRealEstateSystem.DbService\\AppDbContexts\\TblCar.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAACwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T05:47:23.019Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Deployment.cs",
+              "DocumentMoniker": "C:\\MyProjects\\Sharmal_BackendApi\\search.com.mm_develop\\Search.com.mm\\SharmalRealEstateSystem.Shared\\Configs\\Deployment.cs",
+              "RelativeDocumentMoniker": "SharmalRealEstateSystem.Shared\\Configs\\Deployment.cs",
+              "ToolTip": "C:\\MyProjects\\Sharmal_BackendApi\\search.com.mm_develop\\Search.com.mm\\SharmalRealEstateSystem.Shared\\Configs\\Deployment.cs",
+              "RelativeToolTip": "SharmalRealEstateSystem.Shared\\Configs\\Deployment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T04:14:50.958Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "UpdatePropertyRequestModel.cs",
+              "DocumentMoniker": "C:\\MyProjects\\Sharmal_BackendApi\\search.com.mm_develop\\Search.com.mm\\SharmalRealEstateSystem.Models\\Features\\Admin\\Property\\UpdatePropertyRequestModel.cs",
+              "RelativeDocumentMoniker": "SharmalRealEstateSystem.Models\\Features\\Admin\\Property\\UpdatePropertyRequestModel.cs",
+              "ToolTip": "C:\\MyProjects\\Sharmal_BackendApi\\search.com.mm_develop\\Search.com.mm\\SharmalRealEstateSystem.Models\\Features\\Admin\\Property\\UpdatePropertyRequestModel.cs",
+              "RelativeToolTip": "SharmalRealEstateSystem.Models\\Features\\Admin\\Property\\UpdatePropertyRequestModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T04:08:32.731Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "RemoveImageRequestModel.cs",
+              "DocumentMoniker": "C:\\MyProjects\\Sharmal_BackendApi\\search.com.mm_develop\\Search.com.mm\\SharmalRealEstateSystem.Models\\Features\\Admin\\Property\\RemoveImageRequestModel.cs",
+              "RelativeDocumentMoniker": "SharmalRealEstateSystem.Models\\Features\\Admin\\Property\\RemoveImageRequestModel.cs",
+              "ToolTip": "C:\\MyProjects\\Sharmal_BackendApi\\search.com.mm_develop\\Search.com.mm\\SharmalRealEstateSystem.Models\\Features\\Admin\\Property\\RemoveImageRequestModel.cs",
+              "RelativeToolTip": "SharmalRealEstateSystem.Models\\Features\\Admin\\Property\\RemoveImageRequestModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T04:08:31.845Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "PropertyResponseModel.cs",
+              "DocumentMoniker": "C:\\MyProjects\\Sharmal_BackendApi\\search.com.mm_develop\\Search.com.mm\\SharmalRealEstateSystem.Models\\Features\\Admin\\Property\\PropertyResponseModel.cs",
+              "RelativeDocumentMoniker": "SharmalRealEstateSystem.Models\\Features\\Admin\\Property\\PropertyResponseModel.cs",
+              "ToolTip": "C:\\MyProjects\\Sharmal_BackendApi\\search.com.mm_develop\\Search.com.mm\\SharmalRealEstateSystem.Models\\Features\\Admin\\Property\\PropertyResponseModel.cs",
+              "RelativeToolTip": "SharmalRealEstateSystem.Models\\Features\\Admin\\Property\\PropertyResponseModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T04:08:29.405Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "PropertyRequestModel.cs",
+              "DocumentMoniker": "C:\\MyProjects\\Sharmal_BackendApi\\search.com.mm_develop\\Search.com.mm\\SharmalRealEstateSystem.Models\\Features\\Admin\\Property\\PropertyRequestModel.cs",
+              "RelativeDocumentMoniker": "SharmalRealEstateSystem.Models\\Features\\Admin\\Property\\PropertyRequestModel.cs",
+              "ToolTip": "C:\\MyProjects\\Sharmal_BackendApi\\search.com.mm_develop\\Search.com.mm\\SharmalRealEstateSystem.Models\\Features\\Admin\\Property\\PropertyRequestModel.cs",
+              "RelativeToolTip": "SharmalRealEstateSystem.Models\\Features\\Admin\\Property\\PropertyRequestModel.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAzwA0AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T04:08:24.82Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "GetPropertyListRequestModel.cs",
+              "DocumentMoniker": "C:\\MyProjects\\Sharmal_BackendApi\\search.com.mm_develop\\Search.com.mm\\SharmalRealEstateSystem.Models\\Features\\Admin\\Property\\GetPropertyListRequestModel.cs",
+              "RelativeDocumentMoniker": "SharmalRealEstateSystem.Models\\Features\\Admin\\Property\\GetPropertyListRequestModel.cs",
+              "ToolTip": "C:\\MyProjects\\Sharmal_BackendApi\\search.com.mm_develop\\Search.com.mm\\SharmalRealEstateSystem.Models\\Features\\Admin\\Property\\GetPropertyListRequestModel.cs",
+              "RelativeToolTip": "SharmalRealEstateSystem.Models\\Features\\Admin\\Property\\GetPropertyListRequestModel.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAA/wA4AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T04:08:13.771Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "PropertyDataModel.cs",
+              "DocumentMoniker": "C:\\MyProjects\\Sharmal_BackendApi\\search.com.mm_develop\\Search.com.mm\\SharmalRealEstateSystem.Models\\Features\\Admin\\Property\\PropertyDataModel.cs",
+              "RelativeDocumentMoniker": "SharmalRealEstateSystem.Models\\Features\\Admin\\Property\\PropertyDataModel.cs",
+              "ToolTip": "C:\\MyProjects\\Sharmal_BackendApi\\search.com.mm_develop\\Search.com.mm\\SharmalRealEstateSystem.Models\\Features\\Admin\\Property\\PropertyDataModel.cs",
+              "RelativeToolTip": "SharmalRealEstateSystem.Models\\Features\\Admin\\Property\\PropertyDataModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T04:08:12.028Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "PropertyListResponseModel.cs",
+              "DocumentMoniker": "C:\\MyProjects\\Sharmal_BackendApi\\search.com.mm_develop\\Search.com.mm\\SharmalRealEstateSystem.Models\\Features\\Admin\\Property\\PropertyListResponseModel.cs",
+              "RelativeDocumentMoniker": "SharmalRealEstateSystem.Models\\Features\\Admin\\Property\\PropertyListResponseModel.cs",
+              "ToolTip": "C:\\MyProjects\\Sharmal_BackendApi\\search.com.mm_develop\\Search.com.mm\\SharmalRealEstateSystem.Models\\Features\\Admin\\Property\\PropertyListResponseModel.cs",
+              "RelativeToolTip": "SharmalRealEstateSystem.Models\\Features\\Admin\\Property\\PropertyListResponseModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T04:08:06.772Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "PropertyModel.cs",
+              "DocumentMoniker": "C:\\MyProjects\\Sharmal_BackendApi\\search.com.mm_develop\\Search.com.mm\\SharmalRealEstateSystem.Models\\Features\\Admin\\Property\\PropertyModel.cs",
+              "RelativeDocumentMoniker": "SharmalRealEstateSystem.Models\\Features\\Admin\\Property\\PropertyModel.cs",
+              "ToolTip": "C:\\MyProjects\\Sharmal_BackendApi\\search.com.mm_develop\\Search.com.mm\\SharmalRealEstateSystem.Models\\Features\\Admin\\Property\\PropertyModel.cs",
+              "RelativeToolTip": "SharmalRealEstateSystem.Models\\Features\\Admin\\Property\\PropertyModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T04:07:51.508Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "TblProperty.cs",
+              "DocumentMoniker": "C:\\MyProjects\\Sharmal_BackendApi\\search.com.mm_develop\\Search.com.mm\\SharmalRealEstateSystem.DbService\\AppDbContexts\\TblProperty.cs",
+              "RelativeDocumentMoniker": "SharmalRealEstateSystem.DbService\\AppDbContexts\\TblProperty.cs",
+              "ToolTip": "C:\\MyProjects\\Sharmal_BackendApi\\search.com.mm_develop\\Search.com.mm\\SharmalRealEstateSystem.DbService\\AppDbContexts\\TblProperty.cs",
+              "RelativeToolTip": "SharmalRealEstateSystem.DbService\\AppDbContexts\\TblProperty.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAgwBEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T03:53:01.633Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "TblPropertyFeature.cs",
+              "DocumentMoniker": "C:\\MyProjects\\Sharmal_BackendApi\\search.com.mm_develop\\Search.com.mm\\SharmalRealEstateSystem.DbService\\AppDbContexts\\TblPropertyFeature.cs",
+              "RelativeDocumentMoniker": "SharmalRealEstateSystem.DbService\\AppDbContexts\\TblPropertyFeature.cs",
+              "ToolTip": "C:\\MyProjects\\Sharmal_BackendApi\\search.com.mm_develop\\Search.com.mm\\SharmalRealEstateSystem.DbService\\AppDbContexts\\TblPropertyFeature.cs",
+              "RelativeToolTip": "SharmalRealEstateSystem.DbService\\AppDbContexts\\TblPropertyFeature.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T03:53:00.597Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
               "Title": "ModularService.cs",
-              "DocumentMoniker": "C:\\MyProjects\\Sharmal_BackendApi\\search.com.mm\\SharmalRealEstateSystem.Api\\ModularService.cs",
+              "DocumentMoniker": "C:\\MyProjects\\Sharmal_BackendApi\\search.com.mm_develop\\Search.com.mm\\SharmalRealEstateSystem.Api\\ModularService.cs",
               "RelativeDocumentMoniker": "SharmalRealEstateSystem.Api\\ModularService.cs",
-              "ToolTip": "C:\\MyProjects\\Sharmal_BackendApi\\search.com.mm\\SharmalRealEstateSystem.Api\\ModularService.cs",
+              "ToolTip": "C:\\MyProjects\\Sharmal_BackendApi\\search.com.mm_develop\\Search.com.mm\\SharmalRealEstateSystem.Api\\ModularService.cs",
               "RelativeToolTip": "SharmalRealEstateSystem.Api\\ModularService.cs",
-              "ViewState": "AgIAAAABAAAAAAAAAAAYwAoBAABFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEoBAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-02T08:25:49.88Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 26,
+              "Title": "BL_MemberAuth.cs",
+              "DocumentMoniker": "C:\\MyProjects\\Sharmal_BackendApi\\search.com.mm_develop\\Search.com.mm\\SharmalRealEstateSystem.Api\\Features\\Members\\Auth\\BL_MemberAuth.cs",
+              "RelativeDocumentMoniker": "SharmalRealEstateSystem.Api\\Features\\Members\\Auth\\BL_MemberAuth.cs",
+              "ToolTip": "C:\\MyProjects\\Sharmal_BackendApi\\search.com.mm_develop\\Search.com.mm\\SharmalRealEstateSystem.Api\\Features\\Members\\Auth\\BL_MemberAuth.cs",
+              "RelativeToolTip": "SharmalRealEstateSystem.Api\\Features\\Members\\Auth\\BL_MemberAuth.cs",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAmwGEAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T08:11:20.058Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "TblMember.cs",
+              "DocumentMoniker": "C:\\MyProjects\\Sharmal_BackendApi\\search.com.mm_develop\\Search.com.mm\\SharmalRealEstateSystem.DbService\\AppDbContexts\\TblMember.cs",
+              "RelativeDocumentMoniker": "SharmalRealEstateSystem.DbService\\AppDbContexts\\TblMember.cs",
+              "ToolTip": "C:\\MyProjects\\Sharmal_BackendApi\\search.com.mm_develop\\Search.com.mm\\SharmalRealEstateSystem.DbService\\AppDbContexts\\TblMember.cs",
+              "RelativeToolTip": "SharmalRealEstateSystem.DbService\\AppDbContexts\\TblMember.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBgAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T06:59:46.901Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "TblUser.cs",
+              "DocumentMoniker": "C:\\MyProjects\\Sharmal_BackendApi\\search.com.mm_develop\\Search.com.mm\\SharmalRealEstateSystem.DbService\\AppDbContexts\\TblUser.cs",
+              "RelativeDocumentMoniker": "SharmalRealEstateSystem.DbService\\AppDbContexts\\TblUser.cs",
+              "ToolTip": "C:\\MyProjects\\Sharmal_BackendApi\\search.com.mm_develop\\Search.com.mm\\SharmalRealEstateSystem.DbService\\AppDbContexts\\TblUser.cs",
+              "RelativeToolTip": "SharmalRealEstateSystem.DbService\\AppDbContexts\\TblUser.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAzwBUAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T06:58:01.11Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\MyProjects\\Sharmal_BackendApi\\search.com.mm_develop\\Search.com.mm\\SharmalRealEstateSystem.DbService\\AppDbContexts\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "SharmalRealEstateSystem.DbService\\AppDbContexts\\AppDbContext.cs",
+              "ToolTip": "C:\\MyProjects\\Sharmal_BackendApi\\search.com.mm_develop\\Search.com.mm\\SharmalRealEstateSystem.DbService\\AppDbContexts\\AppDbContext.cs",
+              "RelativeToolTip": "SharmalRealEstateSystem.DbService\\AppDbContexts\\AppDbContext.cs",
+              "ViewState": "AgIAAF8AAAAAAAAAAIAwwGoAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T06:57:09.755Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
               "Title": "AuthController.cs",
-              "DocumentMoniker": "C:\\MyProjects\\Sharmal_BackendApi\\search.com.mm\\SharmalRealEstateSystem.Api\\Features\\Admin\\Auth\\AuthController.cs",
+              "DocumentMoniker": "C:\\MyProjects\\Sharmal_BackendApi\\search.com.mm_develop\\Search.com.mm\\SharmalRealEstateSystem.Api\\Features\\Admin\\Auth\\AuthController.cs",
               "RelativeDocumentMoniker": "SharmalRealEstateSystem.Api\\Features\\Admin\\Auth\\AuthController.cs",
-              "ToolTip": "C:\\MyProjects\\Sharmal_BackendApi\\search.com.mm\\SharmalRealEstateSystem.Api\\Features\\Admin\\Auth\\AuthController.cs",
+              "ToolTip": "C:\\MyProjects\\Sharmal_BackendApi\\search.com.mm_develop\\Search.com.mm\\SharmalRealEstateSystem.Api\\Features\\Admin\\Auth\\AuthController.cs",
               "RelativeToolTip": "SharmalRealEstateSystem.Api\\Features\\Admin\\Auth\\AuthController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -76,72 +495,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "BL_MemberAuth.cs",
-              "DocumentMoniker": "C:\\MyProjects\\Sharmal_BackendApi\\search.com.mm\\SharmalRealEstateSystem.Api\\Features\\Members\\Auth\\BL_MemberAuth.cs",
-              "RelativeDocumentMoniker": "SharmalRealEstateSystem.Api\\Features\\Members\\Auth\\BL_MemberAuth.cs",
-              "ToolTip": "C:\\MyProjects\\Sharmal_BackendApi\\search.com.mm\\SharmalRealEstateSystem.Api\\Features\\Members\\Auth\\BL_MemberAuth.cs",
-              "RelativeToolTip": "SharmalRealEstateSystem.Api\\Features\\Members\\Auth\\BL_MemberAuth.cs",
-              "ViewState": "AgIAAFQAAAAAAAAAAAAmwGEAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-02T08:11:20.058Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "CarRepository.cs",
-              "DocumentMoniker": "C:\\MyProjects\\Sharmal_BackendApi\\search.com.mm\\SharmalRealEstateSystem.Repositories\\Features\\Admin\\Car\\CarRepository.cs",
-              "RelativeDocumentMoniker": "SharmalRealEstateSystem.Repositories\\Features\\Admin\\Car\\CarRepository.cs",
-              "ToolTip": "C:\\MyProjects\\Sharmal_BackendApi\\search.com.mm\\SharmalRealEstateSystem.Repositories\\Features\\Admin\\Car\\CarRepository.cs",
-              "RelativeToolTip": "SharmalRealEstateSystem.Repositories\\Features\\Admin\\Car\\CarRepository.cs",
-              "ViewState": "AgIAAD8AAAAAAAAAAAAYwHQAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-02T08:09:26.384Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "TblMember.cs",
-              "DocumentMoniker": "C:\\MyProjects\\Sharmal_BackendApi\\search.com.mm\\SharmalRealEstateSystem.DbService\\AppDbContexts\\TblMember.cs",
-              "RelativeDocumentMoniker": "SharmalRealEstateSystem.DbService\\AppDbContexts\\TblMember.cs",
-              "ToolTip": "C:\\MyProjects\\Sharmal_BackendApi\\search.com.mm\\SharmalRealEstateSystem.DbService\\AppDbContexts\\TblMember.cs",
-              "RelativeToolTip": "SharmalRealEstateSystem.DbService\\AppDbContexts\\TblMember.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBgAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-02T06:59:46.901Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "TblUser.cs",
-              "DocumentMoniker": "C:\\MyProjects\\Sharmal_BackendApi\\search.com.mm\\SharmalRealEstateSystem.DbService\\AppDbContexts\\TblUser.cs",
-              "RelativeDocumentMoniker": "SharmalRealEstateSystem.DbService\\AppDbContexts\\TblUser.cs",
-              "ToolTip": "C:\\MyProjects\\Sharmal_BackendApi\\search.com.mm\\SharmalRealEstateSystem.DbService\\AppDbContexts\\TblUser.cs",
-              "RelativeToolTip": "SharmalRealEstateSystem.DbService\\AppDbContexts\\TblUser.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAzwBUAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-02T06:58:01.11Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\MyProjects\\Sharmal_BackendApi\\search.com.mm\\SharmalRealEstateSystem.DbService\\AppDbContexts\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "SharmalRealEstateSystem.DbService\\AppDbContexts\\AppDbContext.cs",
-              "ToolTip": "C:\\MyProjects\\Sharmal_BackendApi\\search.com.mm\\SharmalRealEstateSystem.DbService\\AppDbContexts\\AppDbContext.cs",
-              "RelativeToolTip": "SharmalRealEstateSystem.DbService\\AppDbContexts\\AppDbContext.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAmwCMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-02T06:57:09.755Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 25,
               "Title": "AuthRepository.cs",
-              "DocumentMoniker": "C:\\MyProjects\\Sharmal_BackendApi\\search.com.mm\\SharmalRealEstateSystem.Repositories\\Features\\Admin\\Auth\\AuthRepository.cs",
+              "DocumentMoniker": "C:\\MyProjects\\Sharmal_BackendApi\\search.com.mm_develop\\Search.com.mm\\SharmalRealEstateSystem.Repositories\\Features\\Admin\\Auth\\AuthRepository.cs",
               "RelativeDocumentMoniker": "SharmalRealEstateSystem.Repositories\\Features\\Admin\\Auth\\AuthRepository.cs",
-              "ToolTip": "C:\\MyProjects\\Sharmal_BackendApi\\search.com.mm\\SharmalRealEstateSystem.Repositories\\Features\\Admin\\Auth\\AuthRepository.cs",
+              "ToolTip": "C:\\MyProjects\\Sharmal_BackendApi\\search.com.mm_develop\\Search.com.mm\\SharmalRealEstateSystem.Repositories\\Features\\Admin\\Auth\\AuthRepository.cs",
               "RelativeToolTip": "SharmalRealEstateSystem.Repositories\\Features\\Admin\\Auth\\AuthRepository.cs",
               "ViewState": "AgIAAL8CAAAAAAAAAAAqwMUCAABgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -150,11 +508,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 28,
               "Title": "MemberAuthRepository.cs",
-              "DocumentMoniker": "C:\\MyProjects\\Sharmal_BackendApi\\search.com.mm\\SharmalRealEstateSystem.Repositories\\Features\\Member\\Auth\\MemberAuthRepository.cs",
+              "DocumentMoniker": "C:\\MyProjects\\Sharmal_BackendApi\\search.com.mm_develop\\Search.com.mm\\SharmalRealEstateSystem.Repositories\\Features\\Member\\Auth\\MemberAuthRepository.cs",
               "RelativeDocumentMoniker": "SharmalRealEstateSystem.Repositories\\Features\\Member\\Auth\\MemberAuthRepository.cs",
-              "ToolTip": "C:\\MyProjects\\Sharmal_BackendApi\\search.com.mm\\SharmalRealEstateSystem.Repositories\\Features\\Member\\Auth\\MemberAuthRepository.cs",
+              "ToolTip": "C:\\MyProjects\\Sharmal_BackendApi\\search.com.mm_develop\\Search.com.mm\\SharmalRealEstateSystem.Repositories\\Features\\Member\\Auth\\MemberAuthRepository.cs",
               "RelativeToolTip": "SharmalRealEstateSystem.Repositories\\Features\\Member\\Auth\\MemberAuthRepository.cs",
               "ViewState": "AgIAADAAAAAAAAAAAAAYwDkAAABKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

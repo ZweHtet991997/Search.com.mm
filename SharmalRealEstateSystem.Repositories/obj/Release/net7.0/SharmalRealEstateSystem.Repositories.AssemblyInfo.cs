@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SharmalRealEstateSystem.Repositories")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ba0504675eb3f127f551139f5fb66e798c96bce2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+13eacc12500e219c68b7befc27f52aa31f865a17")]
 [assembly: System.Reflection.AssemblyProductAttribute("SharmalRealEstateSystem.Repositories")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SharmalRealEstateSystem.Repositories")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

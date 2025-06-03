@@ -19,8 +19,8 @@ public class GetCarListRequestModel
     public string? FuelType { get; set; }
     public string? IsPopular { get; set; }
     public string? IsHotDeal { get; set; }
-    public int? MinPrice { get; set; }
-    public int? MaxPrice { get; set; }
+    public decimal? MinPrice { get; set; }
+    public decimal? MaxPrice { get; set; }
     public int? MinMileAge { get; set; }
     public int? MaxMileAge { get; set; }
     public string? BuildType { get; set; }

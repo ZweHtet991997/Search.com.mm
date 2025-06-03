@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "XMLcpukx9WxAJiLCxNOGSAJCH8d1Q9ChsSRfOZcLFWc=",
+  "Hash": "S9Xg7t25ug1Oh2Rp7AVlAQitvKqCc0pe8cvxBSKbWTc=",
   "Source": "SharmalRealEstateSystem.Api",
   "BasePath": "_content/SharmalRealEstateSystem.Api",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "SharmalRealEstateSystem.Api\\wwwroot",
       "Source": "SharmalRealEstateSystem.Api",
-      "ContentRoot": "C:\\MyProjects\\Sharmal_BackendApi\\search.com.mm\\SharmalRealEstateSystem.Api\\wwwroot\\",
+      "ContentRoot": "C:\\MyProjects\\Sharmal_BackendApi\\search.com.mm_develop\\Search.com.mm\\SharmalRealEstateSystem.Api\\wwwroot\\",
       "BasePath": "_content/SharmalRealEstateSystem.Api",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\MyProjects\\Sharmal_BackendApi\\search.com.mm\\SharmalRealEstateSystem.Api\\wwwroot\\img\\exchange_rate\\JPY.png",
+      "Identity": "C:\\MyProjects\\Sharmal_BackendApi\\search.com.mm_develop\\Search.com.mm\\SharmalRealEstateSystem.Api\\wwwroot\\img\\exchange_rate\\JPY.png",
       "SourceId": "SharmalRealEstateSystem.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\MyProjects\\Sharmal_BackendApi\\search.com.mm\\SharmalRealEstateSystem.Api\\wwwroot\\",
+      "ContentRoot": "C:\\MyProjects\\Sharmal_BackendApi\\search.com.mm_develop\\Search.com.mm\\SharmalRealEstateSystem.Api\\wwwroot\\",
       "BasePath": "_content/SharmalRealEstateSystem.Api",
       "RelativePath": "img/exchange_rate/JPY#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -38,10 +38,10 @@
       "OriginalItemSpec": "wwwroot\\img\\exchange_rate\\JPY.png"
     },
     {
-      "Identity": "C:\\MyProjects\\Sharmal_BackendApi\\search.com.mm\\SharmalRealEstateSystem.Api\\wwwroot\\img\\exchange_rate\\THB.png",
+      "Identity": "C:\\MyProjects\\Sharmal_BackendApi\\search.com.mm_develop\\Search.com.mm\\SharmalRealEstateSystem.Api\\wwwroot\\img\\exchange_rate\\THB.png",
       "SourceId": "SharmalRealEstateSystem.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\MyProjects\\Sharmal_BackendApi\\search.com.mm\\SharmalRealEstateSystem.Api\\wwwroot\\",
+      "ContentRoot": "C:\\MyProjects\\Sharmal_BackendApi\\search.com.mm_develop\\Search.com.mm\\SharmalRealEstateSystem.Api\\wwwroot\\",
       "BasePath": "_content/SharmalRealEstateSystem.Api",
       "RelativePath": "img/exchange_rate/THB#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -59,10 +59,10 @@
       "OriginalItemSpec": "wwwroot\\img\\exchange_rate\\THB.png"
     },
     {
-      "Identity": "C:\\MyProjects\\Sharmal_BackendApi\\search.com.mm\\SharmalRealEstateSystem.Api\\wwwroot\\img\\exchange_rate\\USD.png",
+      "Identity": "C:\\MyProjects\\Sharmal_BackendApi\\search.com.mm_develop\\Search.com.mm\\SharmalRealEstateSystem.Api\\wwwroot\\img\\exchange_rate\\USD.png",
       "SourceId": "SharmalRealEstateSystem.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\MyProjects\\Sharmal_BackendApi\\search.com.mm\\SharmalRealEstateSystem.Api\\wwwroot\\",
+      "ContentRoot": "C:\\MyProjects\\Sharmal_BackendApi\\search.com.mm_develop\\Search.com.mm\\SharmalRealEstateSystem.Api\\wwwroot\\",
       "BasePath": "_content/SharmalRealEstateSystem.Api",
       "RelativePath": "img/exchange_rate/USD#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -83,7 +83,7 @@
   "Endpoints": [
     {
       "Route": "img/exchange_rate/JPY.png",
-      "AssetFile": "C:\\MyProjects\\Sharmal_BackendApi\\search.com.mm\\SharmalRealEstateSystem.Api\\wwwroot\\img\\exchange_rate\\JPY.png",
+      "AssetFile": "C:\\MyProjects\\Sharmal_BackendApi\\search.com.mm_develop\\Search.com.mm\\SharmalRealEstateSystem.Api\\wwwroot\\img\\exchange_rate\\JPY.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -104,7 +104,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 03 Jul 2024 15:40:38 GMT"
+          "Value": "Mon, 02 Jun 2025 08:48:25 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -120,7 +120,7 @@
     },
     {
       "Route": "img/exchange_rate/JPY.xxbun7a4sv.png",
-      "AssetFile": "C:\\MyProjects\\Sharmal_BackendApi\\search.com.mm\\SharmalRealEstateSystem.Api\\wwwroot\\img\\exchange_rate\\JPY.png",
+      "AssetFile": "C:\\MyProjects\\Sharmal_BackendApi\\search.com.mm_develop\\Search.com.mm\\SharmalRealEstateSystem.Api\\wwwroot\\img\\exchange_rate\\JPY.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -141,7 +141,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 03 Jul 2024 15:40:38 GMT"
+          "Value": "Mon, 02 Jun 2025 08:48:25 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -165,7 +165,7 @@
     },
     {
       "Route": "img/exchange_rate/THB.bsc8cg8466.png",
-      "AssetFile": "C:\\MyProjects\\Sharmal_BackendApi\\search.com.mm\\SharmalRealEstateSystem.Api\\wwwroot\\img\\exchange_rate\\THB.png",
+      "AssetFile": "C:\\MyProjects\\Sharmal_BackendApi\\search.com.mm_develop\\Search.com.mm\\SharmalRealEstateSystem.Api\\wwwroot\\img\\exchange_rate\\THB.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -186,7 +186,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 03 Jul 2024 15:39:14 GMT"
+          "Value": "Mon, 02 Jun 2025 08:48:25 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -210,7 +210,7 @@
     },
     {
       "Route": "img/exchange_rate/THB.png",
-      "AssetFile": "C:\\MyProjects\\Sharmal_BackendApi\\search.com.mm\\SharmalRealEstateSystem.Api\\wwwroot\\img\\exchange_rate\\THB.png",
+      "AssetFile": "C:\\MyProjects\\Sharmal_BackendApi\\search.com.mm_develop\\Search.com.mm\\SharmalRealEstateSystem.Api\\wwwroot\\img\\exchange_rate\\THB.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -231,7 +231,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 03 Jul 2024 15:39:14 GMT"
+          "Value": "Mon, 02 Jun 2025 08:48:25 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -247,7 +247,7 @@
     },
     {
       "Route": "img/exchange_rate/USD.823w515owz.png",
-      "AssetFile": "C:\\MyProjects\\Sharmal_BackendApi\\search.com.mm\\SharmalRealEstateSystem.Api\\wwwroot\\img\\exchange_rate\\USD.png",
+      "AssetFile": "C:\\MyProjects\\Sharmal_BackendApi\\search.com.mm_develop\\Search.com.mm\\SharmalRealEstateSystem.Api\\wwwroot\\img\\exchange_rate\\USD.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -268,7 +268,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 04 Jul 2024 04:25:59 GMT"
+          "Value": "Mon, 02 Jun 2025 08:48:25 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -292,7 +292,7 @@
     },
     {
       "Route": "img/exchange_rate/USD.png",
-      "AssetFile": "C:\\MyProjects\\Sharmal_BackendApi\\search.com.mm\\SharmalRealEstateSystem.Api\\wwwroot\\img\\exchange_rate\\USD.png",
+      "AssetFile": "C:\\MyProjects\\Sharmal_BackendApi\\search.com.mm_develop\\Search.com.mm\\SharmalRealEstateSystem.Api\\wwwroot\\img\\exchange_rate\\USD.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -313,7 +313,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 04 Jul 2024 04:25:59 GMT"
+          "Value": "Mon, 02 Jun 2025 08:48:25 GMT"
         },
         {
           "Name": "Cache-Control",

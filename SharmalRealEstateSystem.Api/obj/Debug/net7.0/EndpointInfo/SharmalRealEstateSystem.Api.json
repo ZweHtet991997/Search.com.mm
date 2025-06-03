@@ -1802,8 +1802,8 @@
                     "type": "string"
                   },
                   "Price": {
-                    "type": "integer",
-                    "format": "int32"
+                    "type": "number",
+                    "format": "double"
                   },
                   "PaymentOption": {
                     "type": "string"
@@ -2020,8 +2020,8 @@
                     "type": "string"
                   },
                   "Price": {
-                    "type": "integer",
-                    "format": "int32"
+                    "type": "number",
+                    "format": "double"
                   },
                   "PaymentOption": {
                     "type": "string"
@@ -2497,13 +2497,13 @@
             "nullable": true
           },
           "MinPrice": {
-            "type": "integer",
-            "format": "int32",
+            "type": "number",
+            "format": "double",
             "nullable": true
           },
           "MaxPrice": {
-            "type": "integer",
-            "format": "int32",
+            "type": "number",
+            "format": "double",
             "nullable": true
           },
           "MinBedRooms": {

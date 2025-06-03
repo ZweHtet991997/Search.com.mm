@@ -11,8 +11,8 @@ public class GetPropertyListRequestModel
     public string? Code { get; set; }
     public string? PaymentOption { get; set; }
     public string? Status { get; set; }
-    public int? MinPrice { get; set; }
-    public int? MaxPrice { get; set; }
+    public decimal? MinPrice { get; set; }
+    public decimal? MaxPrice { get; set; }
     public int? MinBedRooms { get; set; }
     public int? MaxBedRooms { get; set; }
     public int? MinBathRooms { get; set; }

@@ -1,15 +1,15 @@
 {
   "Files": [
     {
-      "Id": "C:\\MyProjects\\Sharmal_BackendApi\\search.com.mm\\SharmalRealEstateSystem.Api\\wwwroot\\img\\exchange_rate\\JPY.png",
+      "Id": "C:\\MyProjects\\Sharmal_BackendApi\\search.com.mm_develop\\Search.com.mm\\SharmalRealEstateSystem.Api\\wwwroot\\img\\exchange_rate\\JPY.png",
       "PackagePath": "staticwebassets\\img\\exchange_rate\\JPY.png"
     },
     {
-      "Id": "C:\\MyProjects\\Sharmal_BackendApi\\search.com.mm\\SharmalRealEstateSystem.Api\\wwwroot\\img\\exchange_rate\\THB.png",
+      "Id": "C:\\MyProjects\\Sharmal_BackendApi\\search.com.mm_develop\\Search.com.mm\\SharmalRealEstateSystem.Api\\wwwroot\\img\\exchange_rate\\THB.png",
       "PackagePath": "staticwebassets\\img\\exchange_rate\\THB.png"
     },
     {
-      "Id": "C:\\MyProjects\\Sharmal_BackendApi\\search.com.mm\\SharmalRealEstateSystem.Api\\wwwroot\\img\\exchange_rate\\USD.png",
+      "Id": "C:\\MyProjects\\Sharmal_BackendApi\\search.com.mm_develop\\Search.com.mm\\SharmalRealEstateSystem.Api\\wwwroot\\img\\exchange_rate\\USD.png",
       "PackagePath": "staticwebassets\\img\\exchange_rate\\USD.png"
     },
     {
